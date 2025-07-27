@@ -1,5 +1,5 @@
 site_name: Lazy Guide
-site_url: https://lazyguidejp.github.io/jp-lazy-guide/
+site_url: https://lazyguidejp.github.io/
 site_description: 'Preconfigured tools for Japanese learning'
 site_author: LazyGuideJP
 nav:
@@ -120,6 +120,9 @@ markdown_extensions:
 
 plugins:
   - git-revision-date-localized
+  - redirects:
+      redirect_maps:
+        'index.md': 'jp-lazy-guide/index.md'
   - search:
       lang:
         - en
