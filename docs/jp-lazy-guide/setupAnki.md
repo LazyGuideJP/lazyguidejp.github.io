@@ -47,11 +47,11 @@
 
     ![Deck rename](../img/deck-rename.png){height=250 width=500}
 
-7. Go to your `Deck`'s option(Cog icon) then copy the [settings](setupAnki.md/#__tabbed_1_1) below
+7. Go to your `Deck's option`(Cog icon) then copy the [settings](setupAnki.md/#__tabbed_1_1) below
     - ([Settings 2](setupAnki.md/#__tabbed_1_2)) Turn on `FSRS`
     - ([Settings 2](setupAnki.md/#__tabbed_1_2)) Until after 1 month, use `default parameters`; after that:
         - Use `Optimize current preset` every month
-        - (Optional) `Tools` > `FSRS4Anki Helper` > `Reschedule all Cards`
+        - (Optional) `Deck's option` > `FSRS Helper` > `Reschedule all Cards`
 
     - (Menu Bar - Top Left) `Tools` > `Preferences` and set the [settings](setupAnki.md/#__tabbed_1_4) accordingly
 
