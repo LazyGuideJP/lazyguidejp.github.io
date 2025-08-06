@@ -1,0 +1,133 @@
+site_name: Lazy Guide
+site_url: https://lazyguidejp.github.io/
+site_description: 'Preconfigured tools for Japanese learning'
+site_author: LazyGuideJP
+nav:
+  - Home:
+    - Introduction: 'jp-lazy-guide/index.md'
+    - Changelog (2025-04-02): 'jp-lazy-guide/changelog.md'
+    - About: 'jp-lazy-guide/about.md'
+    - Credits: 'jp-lazy-guide/credits.md'
+    - Want to contribute?: 'jp-lazy-guide/wantToContribute.md'
+  - Setup:
+    - Setup Introduction: 'jp-lazy-guide/setup.md'
+    - Essentials:
+      - "Setup: Anki": 'jp-lazy-guide/setupAnki.md'
+      - "Setup: Yomitan PC": 'jp-lazy-guide/setupYomitanOnPC.md'
+      - "Setup: Yomitan Android": 'jp-lazy-guide/setupYomitanOnAndroid.md'
+      - "Setup: ShareX": 'jp-lazy-guide/setupShareX.md'
+    - Visual Novel:
+      - "Setup: VN on PC": 'jp-lazy-guide/setupVnOnPC.md'
+      - "Setup: VN on Android": 'jp-lazy-guide/setupVnOnAndroid.md'
+    - Light Novel:
+      - "Setup: LN on PC": 'jp-lazy-guide/setupLnOnPC.md'
+      - "Setup: LN on Android": 'jp-lazy-guide/setupLnOnAndroid.md'
+    - Manga:
+      - "Setup: Manga on PC": 'jp-lazy-guide/setupMangaOnPC.md'
+      - "Setup: Manga on Android": 'jp-lazy-guide/setupMangaOnAndroid.md'
+    - Anime:
+      - "Setup: Anime on PC": 'jp-lazy-guide/setupAnimeOnPC.md'
+      - "Setup: Anime on Android": 'jp-lazy-guide/setupAnimeOnAndroid.md'
+    - Miscellaneous:
+      - "Transfer: JPMN to Lapis": 'jp-lazy-guide/transferJPMNToLapis.md'
+      - "Updating: Lapis Format": 'jp-lazy-guide/updatingAnkiLapisFormat.md'
+    - Archive:
+      - "Setup: Anki (JPMN)": 'jp-lazy-guide/setupAnkiOld.md'
+      - "Setup: Yomitan (JPMN)": 'jp-lazy-guide/setupYomitanOld.md'
+      - "Transfer: Lazy Setup to JPMN": 'jp-lazy-guide/transferLazyToJPMN.md'
+      - "Updating: Anki JPMN Note": 'jp-lazy-guide/updatingAnkiJPMNNote.md'
+      - "Setup: VN on PC (Clipboard Inserter)": 'jp-lazy-guide/setupVnOnPCOld.md'
+  - Sub Guide:
+    - Sub Guide Introduction: 'jp-lazy-guide/subGuide.md'
+    - Concise Guide to Jumpstart JP: 'jp-lazy-guide/conciseGuideToJumpstartJP.md'
+    - Retention How-To: 'jp-lazy-guide/retentionHowTo.md'
+  - Resources: 
+    - Resources Introduction: 'jp-lazy-guide/resources.md'
+    - Immersion Data Spreadsheet: 'jp-lazy-guide/immersionDataSpreadsheet.md'
+    - Deck Resources: 'jp-lazy-guide/resourcesDecks.md'
+theme:
+  name: material
+  favicon: img/favicon.png
+  logo: img/favicon-2.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode    
+      primary: indigo
+      accent: indigo
+
+extra:
+  homepage: /jp-lazy-guide/
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/LazyGuideJP
+      name: Github
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@LazyGuideJP
+      name: Youtube
+  analytics:
+    provider: google
+    property: G-GMJZ3SM36S
+  generator: false
+  
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - git-revision-date-localized
+  - redirects:
+      redirect_maps:
+        'index.md': 'jp-lazy-guide/index.md'
+  - search:
+      lang:
+        - en
+        - ja
+
+
+copyright: |
+  &copy; 2025 <a href="https://github.com/LazyGuideJP/LazyGuideJP.github.io/blob/main/LICENSE"  target="_blank" rel="noopener">Lazy Guide</a>
