@@ -17,7 +17,7 @@ This is in case I stopped caring about my guide, anyone else can continue it
 
 Then:
 
-pip install mkdocs-material
+pip install -r requirements.txt
 
 to create new: mkdocs new .
 
