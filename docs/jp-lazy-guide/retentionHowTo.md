@@ -40,8 +40,6 @@ I no longer recommend `microsteps` due to `FSRS`; this is worse case scenario
             ![Anki Settings 2](../img/anki-settings-2-tutorial.png){height=300 width=600}
         === "Settings 3"
             ![Anki Settings 3](../img/anki-settings-3.png){height=300 width=600}
-        === "Settings 4"
-            ![Anki Settings 4](../img/anki-settings-4.png){height=300 width=600}
         === "Anki Preference Settings"
             ![Anki Preference Settings](../img/anki-preference-settings.png){height=300 width=600}
 

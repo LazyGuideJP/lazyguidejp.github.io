@@ -1,6 +1,7 @@
 # Setup: Anime on PC
 
 - `asbplayer` is a browser video player that supports uploading of `Anime` and `subtitle` to be able hover over the words to use `yomitan`
+- With the browser extension, it should also support streaming platforms such as `Youtube` or `Netflix`
 
 ---
 
@@ -25,16 +26,29 @@ Requirements
     ![Enable Experimental Web Platform PC](../img/enable-experimental-web-platform.png){height=300 width=600}
 
 2. Go to [asbplayer](https://killergerbah.github.io/asbplayer/)
-    - Ignore `request permission` to `Anki` and installing of `Chrome extension`
+    - Accept `request permission` to `Anki` and install the `Chrome extension`
 
-3. Upload your `Anime` and `Subtitle` to the `asbplayer` by clicking the `folder` icon on the top left
+3. On the top right of the page's settings(Cog icon); copy the [settings](setupAnki.md/#__tabbed_1_1) below
+
+    === "Anki"
+        ![Anki Settings 1](../img/asbplayer-settings-1.png){height=400 width=800}
+    === "Mining"
+        ![Anki Settings 2](../img/asbplayer-settings-2.png){height=400 width=800}
+
+4. Upload your `Anime` and `Subtitle` to the `asbplayer` by clicking the `folder` icon on the top left
+    - Ignore for streaming platforms like `Youtube` or `Netflix`
 
     === "Upload Files"
         ![Pick Anime PC](../img/pick-anime-pc.png){height=300 width=600}
     === "Pick Anime and Sub"
         ![Pick Anime & Subtitle PC](../img/pick-anime-sub.png){height=300 width=600}
 
-4. You can now mine with `Yomitan` and [ShareX](setupShareX.md)'s `screenshot` and `audio recording` hotkeys
+5. To mine:
+    - Hover over the word in the subtitles and mine with `Yomitan`
+    - Tap `Ctrl + Shift + U` to automatically add `screenshot` and `audio` to `Anki`
+    - (Optional) To change keyboard shortcuts: `Settings` > `Keyboard Shortcuts` > `Update last-created Anki card`
+
+6. You can now mine using `asbplayer` and `yomitan`!
     - See [Anime Mining Demo](setupAnimeOnPC.md/#info-1-anime-mining-demo)
 
 
@@ -51,6 +65,8 @@ You can now mine Anime on PC, why not do it on Android too? (RIP eyes)
 #### Info 1: Anime Mining Demo
 
 ??? info "Anime Mining Demo <small>(click here)</small>"
+
+    - Outdated; you instead use asbplayer's hotkey(`Ctrl + Shift + U`) instead of `ShareX` hotkeys to automatically get both `screenshot` and `audio`
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MAiNi_ME6zw" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

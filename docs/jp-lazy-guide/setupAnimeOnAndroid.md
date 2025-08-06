@@ -28,6 +28,7 @@ Requirements
     - Ignore `request permission` to `Anki` and installing of `Chrome extension`
 
 3. Upload your `Anime` and `Subtitle` to the `asbplayer` by clicking the `folder` icon on the top left
+    - Ignore for streaming platforms like `Youtube` or `Netflix`
 
     === "Upload Files"
         ![Pick Anime Android](../img/pick-anime-android.png){height=200 width=400}
@@ -39,7 +40,7 @@ Requirements
     ![Android Player Buttons](../img/android-player-buttons.png){height=400 width=800}
 
 5. You can now mine with `Yomitan` by hovering over the words on the subtitle
-    - See [Anime Mining Demo](setupAnimeOnPC.md/#info-1-anime-mining-demo)
+    - See [Anime Mining Demo](setupAnimeOnPC.md/#info-1-anime-mining-demo) (For PC)
     - Unfortunately, to get `Picture`, `screenshot` manually and upload it to your card details in `Ankidroid`
 
     ![Android Player Mining](../img/android-player-mining.png){height=400 width=800}
@@ -55,9 +56,11 @@ Wow! Setting up the Mining tools is finally done, how about checking Sub Guide?
 
 ## Extra Info and Tips
 
-#### Info 1: Anime Mining Demo
+#### Info 1: Anime Mining Demo (For PC)
 
 ??? info "Anime Mining Demo <small>(click here)</small>"
+
+    - Outdated; you instead use asbplayer's hotkey(`Ctrl + Shift + U`) instead of `ShareX` hotkeys to automatically get both `screenshot` and `audio`
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MAiNi_ME6zw" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

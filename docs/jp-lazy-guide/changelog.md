@@ -10,6 +10,16 @@ hide:
 
 ---
 
+### August
+
+**2025-08-06**
+
+Minor updates; update only if you like
+
+- Lazy Guide
+	- Updated [Setup: Anki](setupAnki.md) and [Concise Guide to Jumpstart Japanese](conciseGuideToJumpstartJP.md) to accomodate `FSRS 6`
+	- Updated [Setup: Anime on PC](setupAnimeOnPC.md) for `asbplayer` shortcuts instead
+
 ### April
 
 **2025-04-02**

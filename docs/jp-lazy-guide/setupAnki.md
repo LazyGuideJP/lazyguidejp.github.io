@@ -49,15 +49,11 @@
 
 7. Go to your `Deck`'s option(Cog icon) then copy the [settings](setupAnki.md/#__tabbed_1_1) below
     - ([Settings 2](setupAnki.md/#__tabbed_1_2)) Turn on `FSRS`
-        - Put `Desired Retention` of `0.80`
-        - `Tools` > `FSRS4Anki Helper` > `Load Balance when rescheduling`
-
     - ([Settings 2](setupAnki.md/#__tabbed_1_2)) Until after 1 month, use `default parameters`; after that:
-        - Use `Optimize` and `Compute minimum recommended retention` every month
-        - Replace the `Desired retention` after the computation
+        - Use `Optimize current preset` every month
         - (Optional) `Tools` > `FSRS4Anki Helper` > `Reschedule all Cards`
 
-    - (Menu Bar - Top Left) `Tools` > `Preferences` and set the [settings](setupAnki.md/#__tabbed_1_5) accordingly
+    - (Menu Bar - Top Left) `Tools` > `Preferences` and set the [settings](setupAnki.md/#__tabbed_1_4) accordingly
 
     === "Settings 1"
         ![Anki Settings 1](../img/anki-settings-1.png){height=300 width=600}
@@ -65,8 +61,6 @@
         ![Anki Settings 2](../img/anki-settings-2.png){height=300 width=600}
     === "Settings 3"
         ![Anki Settings 3](../img/anki-settings-3.png){height=300 width=600}
-    === "Settings 4"
-        ![Anki Settings 4](../img/anki-settings-4.png){height=300 width=600}
     === "Anki Preference Settings"
         ![Anki Preference Settings](../img/anki-preference-settings.png){height=300 width=600}
 

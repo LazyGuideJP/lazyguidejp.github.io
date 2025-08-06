@@ -39,7 +39,7 @@ hide:
     - Just use `again (1 = I don't know the answer)` or `good (spacebar or 3 = I know the answer)` button when doing the deck so you don't have to think about if it's `easy (2)` or `hard (4)`
 
 4. Go to your `Deck`'s option(Cog icon) then copy the [settings](conciseGuideToJumpstartJP.md/#__tabbed_1_1) below
-    - (Menu Bar - Top Left) `Tools` > `Preferences` and set the [settings](conciseGuideToJumpstartJP.md/#__tabbed_1_5) accordingly
+    - (Menu Bar - Top Left) `Tools` > `Preferences` and set the [settings](conciseGuideToJumpstartJP.md/#__tabbed_1_4) accordingly
 
     ??? info "Anki Settings <small>(click here)</small>"
     
@@ -49,8 +49,6 @@ hide:
             ![Anki Settings 2](../img/anki-settings-2-tutorial.png){height=300 width=600}
         === "Settings 3"
             ![Anki Settings 3](../img/anki-settings-3.png){height=300 width=600}
-        === "Settings 4"
-            ![Anki Settings 4](../img/anki-settings-4.png){height=300 width=600}
         === "Anki Preference Settings"
             ![Anki Preference Settings](../img/anki-preference-settings.png){height=300 width=600}
 
