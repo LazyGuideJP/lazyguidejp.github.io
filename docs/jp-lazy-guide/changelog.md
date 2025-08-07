@@ -12,6 +12,11 @@ hide:
 
 ### August
 
+**2025-08-07**
+
+- Miscellaneous
+	- Added [Setup: Gaming on Android](setupGamingOnAndroid.md)
+
 **2025-08-06**
 
 Minor updates; update only if you like

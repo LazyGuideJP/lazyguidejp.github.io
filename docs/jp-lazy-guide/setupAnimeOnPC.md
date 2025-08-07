@@ -66,7 +66,7 @@ You can now mine Anime on PC, why not do it on Android too? (RIP eyes)
 
 ??? info "Anime Mining Demo <small>(click here)</small>"
 
-    - Outdated; you instead use asbplayer's hotkey(`Ctrl + Shift + U`) instead of `ShareX` hotkeys to automatically get both `screenshot` and `audio`
+    - Outdated; you use asbplayer's hotkey(`Ctrl + Shift + U`) instead of `ShareX` hotkeys to automatically get both `screenshot` and `audio`
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MAiNi_ME6zw" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
