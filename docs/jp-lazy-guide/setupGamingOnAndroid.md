@@ -14,7 +14,8 @@ hide:
 - Based on this [video](https://www.youtube.com/watch?v=ERC7UrkRL2c)
     - I used `Artemis` instead of `Moonlight`
 
-- `GameSir G8 Plus`: Bluetooth, Rumble, Gyro, Hall-effect, back pedal, hotswappable
+- (Recommmended Gamepad) `GameSir G8 Plus`
+    - Bluetooth, Rumble, Gyro, Hall-effect, back pedal, hotswappable
     - Not to be confused with the Type-C non-plus version(no rumble/gyro)
 
     ![Android Controller](../img/android-controller.png){height=300 width=600}
