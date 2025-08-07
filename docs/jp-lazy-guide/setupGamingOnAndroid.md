@@ -4,7 +4,7 @@ hide:
 ---
 # Setup: Gaming on Android
 
-- A portable heavy-gaming setup for `Android` streaming your gaming PC by using `Apollo` and `Artemis`
+- A portable heavy-gaming setup for `Android`; streaming your gaming PC by using `Apollo` and `Artemis`
 
 - This is **GAMING** focused not mining; an alternative Steam Deck
 
