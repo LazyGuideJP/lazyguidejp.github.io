@@ -85,7 +85,7 @@ extra:
       link: https://github.com/LazyGuideJP
       name: Github
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@LazyGuideJP
+      link: https://www.youtube.com/@LazyGuide-JP
       name: Youtube
   analytics:
     provider: google
