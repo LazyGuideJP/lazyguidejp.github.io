@@ -102,7 +102,7 @@ Choose between 2 options:
 5. (Optional) Use `GPU CUDA`
     - Check if your GPU is [CUDA compatible](https://developer.nvidia.com/cuda-gpus)
     - Download [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive) for your operating system and version
-    - Type `pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126` in `cmd` (stick to `CUDA 11.8`)
+    - Type `pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126` in `cmd`
 
     ![Installing Torch](../img/installing-torch.png){height=300 width=600}
 
