@@ -49,7 +49,7 @@
 
 6. Go to `Dictionary` > `Configure installed and enabled dictionaries...` > `Import`
     - Import all the dictionaries from `yomitan dictionary` folder (You can select them all and import all at once)
-    - Turn ON `Jitendex` and put it as priority #1 (very top)
+    - After importing; turn ON `Jitendex` and put it as priority #1 (very top)
 
     ![Dictionary Import](../img/yomitan-dictionary-import.png){height=250 width=500}
 
