@@ -99,6 +99,14 @@ You now have an Anki Template, next is Yomitan
 
     If you found yourself having low retention, go to [Retention How-To](retentionHowTo.md) for anki settings suggestions and other tips
 
+#### Info 4: FSRS Interval Troubleshooting Diagram
+
+??? info "FSRS Interval Troubleshooting Diagram <small>(click here)</small>"
+
+    [source](https://www.reddit.com/r/Anki/comments/1mrsr30/i_updated_the_fsrs_interval_troubleshooting/)
+
+    ![FSRS Interval Troubleshooting](../img/fsrs-interval-troubleshooting.png){height=400 width=800}
+
 #### Tip 1: When Reviewing on Anki
 
 ??? tip "When Reviewing on Anki <small>(click here)</small>"
