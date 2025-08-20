@@ -29,6 +29,7 @@ Requirements
     - Accept `request permission` to `Anki` and install the `Chrome extension`
 
 3. On the top right of the page's settings(Cog icon); copy the [settings](setupAnki.md/#__tabbed_1_1) below
+    - You can ignore the other fields not in `red box`
 
     === "Anki"
         ![Anki Settings 1](../img/asbplayer-settings-1.png){height=400 width=800}
