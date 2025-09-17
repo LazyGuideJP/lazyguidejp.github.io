@@ -18,6 +18,8 @@ hide:
     - Bluetooth, Rumble, Gyro, Hall-effect, back pedal, hotswappable
     - Not to be confused with the Type-C non-plus version(no rumble/gyro)
 
+- (Budget Gamepad) `GameSir X5 Lite`
+
     ![Android Controller](../img/android-controller.png){height=300 width=600}
 
 ---
