@@ -132,7 +132,7 @@ hide:
 
     ??? question "How can I use sentence card? <small>(click here)</small>"
 
-        In your `Yomitan settings` > `Anki` > `configure Anki card format...`
+        In your `Yomitan settings` > `Anki` > `Configure Anki flashcards...`
 
         ![Sentence Card Instruction 1](../img/sentence-card-instruction-1.png){height=300 width=600}
         

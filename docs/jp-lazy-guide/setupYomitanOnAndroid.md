@@ -55,7 +55,7 @@
 
         ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
 
-8. Pick `Android (Anime, LN & Manga)` profile (`Default` and `Editing`)
+8. Pick `Android (Anime, LN & Manga)` as `Active profile`
 
     ![Yomitan Profile](../img/yomitan-profile-android.png){align=left height=300 width=600}
 
@@ -141,7 +141,7 @@ Yomitan setup is done, next is ShareX for convenient Mining
 
 ??? question "How can I use sentence card? <small>(click here)</small>"
 
-    In your `Yomitan settings` > `Anki` > `configure Anki card format...`
+    In your `Yomitan settings` > `Anki` > `Configure Anki flashcards...`
 
     ![Sentence Card Instruction 1](../img/sentence-card-instruction-1.png){height=300 width=600}
     

@@ -60,7 +60,7 @@
 
         ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
 
-8. Pick a profile(`Default` and `Editing`), usually between `Monolingual` and `Bilingual` (other profiles will be discussed in other sections)
+8. Pick a `Active profile`, usually between `Monolingual` and `Bilingual` (other profiles will be discussed in other sections)
     - `Bilingual` is default, you can hold `alt` while hovering over a word to use the `Monolingual` profile
 
         ![Yomitan Profile](../img/yomitan-profiles.png){align=left height=300 width=600}
@@ -127,7 +127,7 @@ Yomitan on PC setup is done, why not check out how to use Yomitan on Android?
 
     - Yes, most dictionaries should be compatible with the Anki format
 
-    - You might need to edit on `Yomitan settings` > `Anki` > `Configure Anki card format...` > `MainDefinition` > open dropdown menu, search for the `single-glossary-YOUR-CHOICE`
+    - You might need to edit on `Yomitan settings` > `Anki` > `Configure Anki flashcards...` > `MainDefinition` > open dropdown menu, search for the `single-glossary-YOUR-CHOICE`
 
     - If you changed `MainDefinition`, you need to edit every `Yomitan Profile`
 
@@ -143,7 +143,7 @@ Yomitan on PC setup is done, why not check out how to use Yomitan on Android?
 
 ??? question "How can I use sentence card? <small>(click here)</small>"
 
-    In your `Yomitan settings` > `Anki` > `configure Anki card format...`
+    In your `Yomitan settings` > `Anki` > `Configure Anki flashcards...`
 
     ![Sentence Card Instruction 1](../img/sentence-card-instruction-1.png){height=300 width=600}
     

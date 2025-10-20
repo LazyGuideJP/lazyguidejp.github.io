@@ -345,7 +345,7 @@ In Yomichan; updated [settings](https://drive.google.com/drive/folders/1DHJ18Lk2
 - Updated `freq` from [Marv's sort by frequency](https://github.com/MarvNC/JP-Resources#sorting-mined-anki-cards-by-frequency)
 
 - Added Kanji info dicts | Updated JMdict, JMnedict: [yomichan dictionary](https://drive.google.com/drive/folders/1DHJ18Lk2_tVYWJ1Adhe8XByuyFBGuTr_?usp=sharing)
-	- If you are updating the dicts, you need to also update(manually if you didn't download my settings) the Handlebar(JMdict changes) and replace `{test}` with `{glossary-jmdict-compact-brief}` in `Configure Anki Card Format...`
+	- If you are updating the dicts, you need to also update(manually if you didn't download my settings) the Handlebar(JMdict changes) and replace `{test}` with `{glossary-jmdict-compact-brief}` in `Configure Anki flashcards...`
 
 - Updated Text replacement pattern
 
