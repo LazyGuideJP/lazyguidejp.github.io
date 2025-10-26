@@ -62,6 +62,7 @@
 
 8. Pick a `Active profile`, usually between `Monolingual` and `Bilingual` (other profiles will be discussed in other sections)
     - `Bilingual` is default, you can hold `alt` while hovering over a word to use the `Monolingual` profile
+    - Don't forget turn ON Jitendex(STEP 6) and put it as priority #1 (very top) if you're using other `Active Profiles`
 
         ![Yomitan Profile](../img/yomitan-profiles.png){align=left height=300 width=600}
 
