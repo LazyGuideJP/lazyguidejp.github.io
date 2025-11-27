@@ -5,7 +5,7 @@ site_author: LazyGuideJP
 nav:
   - Home:
     - Introduction: 'jp-lazy-guide/index.md'
-    - Changelog (2025-08-07): 'jp-lazy-guide/changelog.md'
+    - Changelog (2025-11-27): 'jp-lazy-guide/changelog.md'
     - About: 'jp-lazy-guide/about.md'
     - Credits: 'jp-lazy-guide/credits.md'
     - Want to contribute?: 'jp-lazy-guide/wantToContribute.md'
@@ -13,20 +13,20 @@ nav:
     - Setup Introduction: 'jp-lazy-guide/setup.md'
     - Essentials:
       - "Setup: Anki": 'jp-lazy-guide/setupAnki.md'
-      - "Setup: Yomitan PC": 'jp-lazy-guide/setupYomitanOnPC.md'
+      - "Setup: Yomitan Windows": 'jp-lazy-guide/setupYomitanOnWindows.md'
       - "Setup: Yomitan Android": 'jp-lazy-guide/setupYomitanOnAndroid.md'
       - "Setup: ShareX": 'jp-lazy-guide/setupShareX.md'
     - Visual Novel:
-      - "Setup: VN on PC": 'jp-lazy-guide/setupVnOnPC.md'
+      - "Setup: VN on Windows": 'jp-lazy-guide/setupVnOnWindows.md'
       - "Setup: VN on Android": 'jp-lazy-guide/setupVnOnAndroid.md'
     - Light Novel:
-      - "Setup: LN on PC": 'jp-lazy-guide/setupLnOnPC.md'
+      - "Setup: LN on Windows": 'jp-lazy-guide/setupLnOnWindows.md'
       - "Setup: LN on Android": 'jp-lazy-guide/setupLnOnAndroid.md'
     - Manga:
-      - "Setup: Manga on PC": 'jp-lazy-guide/setupMangaOnPC.md'
+      - "Setup: Manga on Windows": 'jp-lazy-guide/setupMangaOnWindows.md'
       - "Setup: Manga on Android": 'jp-lazy-guide/setupMangaOnAndroid.md'
     - Anime:
-      - "Setup: Anime on PC": 'jp-lazy-guide/setupAnimeOnPC.md'
+      - "Setup: Anime on Windows": 'jp-lazy-guide/setupAnimeOnWindows.md'
       - "Setup: Anime on Android": 'jp-lazy-guide/setupAnimeOnAndroid.md'
     - Miscellaneous:
       - "Setup: Gaming on Android": 'jp-lazy-guide/setupGamingOnAndroid.md'
@@ -37,7 +37,7 @@ nav:
       - "Setup: Yomitan (JPMN)": 'jp-lazy-guide/setupYomitanOld.md'
       - "Transfer: Lazy Setup to JPMN": 'jp-lazy-guide/transferLazyToJPMN.md'
       - "Updating: Anki JPMN Note": 'jp-lazy-guide/updatingAnkiJPMNNote.md'
-      - "Setup: VN on PC (Clipboard Inserter)": 'jp-lazy-guide/setupVnOnPCOld.md'
+      - "Setup: VN on Windows (Clipboard Inserter)": 'jp-lazy-guide/setupVnOnWindowsOld.md'
   - Sub Guide:
     - Sub Guide Introduction: 'jp-lazy-guide/subGuide.md'
     - Concise Guide to Jumpstart JP: 'jp-lazy-guide/conciseGuideToJumpstartJP.md'

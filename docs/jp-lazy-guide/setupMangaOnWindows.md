@@ -1,12 +1,12 @@
 # Setup: Manga on PC
 
-- [MangaOCR](setupMangaOnPC.md/#setup-mangaocr) is a tool used to scan a `Japanese` text and return it to your clipboard which you can scan in `Yomitan`
+- [OCR](setupMangaOnPC.md/#setup-ocr) is a tool used to scan a `Japanese` text and return it to your clipboard which you can scan in `Yomitan`
 
 - (Recommended) [Mokuro Manga](setupMangaOnPC.md/#setup-mokuro-manga) is a setup that first processes the `manga` to be able to hover the words and scan them using `Yomitan`
 
 ---
 
-## MangaOCR
+## OCR
 
 Requirements
 
@@ -16,9 +16,9 @@ Requirements
 
 ---
 
-## Setup: MangaOCR
+## Setup: OCR
 
-1. Download [python](https://www.python.org/downloads/release/python-31011/) (`3.10.xx ONLY`)
+1. Download [python](https://www.python.org/downloads/release/python-3139/) (`Tested on 3.13.9 ONLY`)
     - (Scroll down) Then choose Windows/mac `INSTALLER (64-bit)` and install
     - Check `Add Python to PATH`
 
@@ -26,29 +26,29 @@ Requirements
 
 2. Open `command prompt` by winkey/search > `cmd`
 
-3. Type `pip3 install mokuro`
+3. Type `pip install owocr[mangaocr,lens]`asdsad
     - Then just let it download/install for a few mins until it's done and you can type again
     - If `pip3 is not recognized...` then:
         - Uninstall `Python`(step 1) > Restart the pc > reinstall `Python` (repeat if it didn't work; I know its dumb)
 
-4. `Hotkey Settings`([ShareX](setupShareX.md)) > `OCR (manga_ocr)` > Click the `COG` icon > `override screenshot folder` > change the `path` to a specified `OCR` folder of your choice
+4. `Hotkey Settings`([ShareX](setupShareX.md)) > `OCR` > Click the `COG` icon > `override screenshot folder` > change the `path` to a specified `OCR` folder of your choice
 
     ![ShareX OCR Path](../img/sharex-ocr-path.png){height=150 width=300}
 
 5. In `command prompt` type:
-    - `manga_ocr "\path\to\sharex\screenshot\folder"`
+    - `owocr -e glens -w clipboard -j -d -r "\path\to\screenshot\folder"`
         - Copy the `path` that YOU specified in `step 4` to start the program, then just minimize the window
-    - Typing `manga_ocr` by itself without a path also works; it will `OCR`(scan) from everywhere
-    - If you want a `shortcut` program see: [Info 1](setupMangaOnPC.md/#info-1-mangaocr-shortcut-program)
+    - Typing `owocr` by itself without a path also works; it will `OCR`(scan) from everywhere
+    - If you want a `shortcut` program see: [Info 1](setupMangaOnPC.md/#info-1-ocr-shortcut-program)
 
-6. Capture anything using `Shift + Alt + Q` or whatever you set in `OCR (manga_ocr)` hotkey in ([ShareX](setupShareX.md))
+6. Capture anything using `Shift + Alt + Q` or whatever you set in `OCR` hotkey in ([ShareX](setupShareX.md))
     - Make sure [Yomitan Search Page](setupMangaOnPC.md/#__tabbed_1_1) is opened
     - If you want to `scan using mouse button`, see [Info 2](setupMangaOnPC.md/#info-2-scan-using-mouse-button)
 
-7. You can now start reading using MangaOCR
+7. You can now start reading using `OCR`
 
     ??? info "Video How-to <small>(click here)</small>"
-        <iframe width="560" height="315" src="https://user-images.githubusercontent.com/22717958/150238361-052b95d1-0152-485f-a441-48a957536239.mp4" title="MangaOCR How-to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://user-images.githubusercontent.com/22717958/150238361-052b95d1-0152-485f-a441-48a957536239.mp4" title="OCR How-to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     === "Yomitan Search Page"
         ![Anki | Dark](../img/yomitan-search-page.png){height=300 width=600}
@@ -84,7 +84,7 @@ Choose between 2 options:
 
 ### Local Processing Method
 
-1. Download [python](https://www.python.org/downloads/release/python-31011/) (`3.10.xx ONLY`)
+1. Download [python](https://www.python.org/downloads/release/python-3139/) (`Tested on 3.13.9 ONLY`)
     - (Scroll down) Then choose Windows/mac `INSTALLER (64-bit)` and install
     - Check `Add Python to PATH`
 
@@ -117,11 +117,11 @@ Choose between 2 options:
 6. Two options to process, go to `cmd` then:
     - All Manga volumes:
         - Paste: `mokuro --parent_dir F:\Manga\Saenai`
-            - Replace full directory, Saenai with your manga name
+            - Replace full directory, Saenai with your manga name(no white-spaces)
             - Your vol1, 2, 3, etc. should be inside `Saenai folder` in ascending uniform named order
     - Specific Manga volume:
         - Paste: `mokuro F:\Manga\Saenai\Vol3`
-            - Replace full directory, Saenai with your manga name and volume #
+            - Replace full directory, Saenai with your manga name(no white-spaces) and volume #
 
     ??? examplecode "Folder Structure <small>(click here)</small>"
         
@@ -194,17 +194,17 @@ You can now mine Manga on PC, see how it's done in Android!
 
 ## Extra Info and Tips
 
-#### Info 1: MangaOCR Shortcut Program
+#### Info 1: OCR Shortcut Program
 
-??? info "MangaOCR Shortcut Program <small>(click here)</small>"
+??? info "OCR Shortcut Program <small>(click here)</small>"
     1. `Right click` in an empty space in your `Desktop` > `New` > `Shortcut`
 
-        ![MangaOCR Shortcut](../img/mangaocr-shortcut.png){height=300 width=600}
+        ![OCR Shortcut](../img/mangaocr-shortcut.png){height=300 width=600}
 
     2. Type the location of the item as:
-        - Default: `C:\Windows\System32\cmd.exe /k manga_ocr`
-        - OCR only from specific folder: `C:\Windows\System32\cmd.exe /k manga_ocr "\path\to\the\screenshot\folder"`
-            - For example: `C:\Windows\System32\cmd.exe /k manga_ocr "F:\Pictures\OCR Picture"`
+        - Default: `C:\Windows\System32\cmd.exe /k owocr`
+        - OCR only from specific folder: `C:\Windows\System32\cmd.exe /k owocr -e glens -j -d -w clipboard -r "\path\to\screenshot\folder"`
+            - For example: `C:\Windows\System32\cmd.exe /k owocr -e glens -j -d -w clipboard -r "E:\写真\OCR Picture"`
             - `Next` then `choose your name` and done
 
 #### Info 2: Scan using Mouse Button
@@ -215,7 +215,7 @@ You can now mine Manga on PC, see how it's done in Android!
     2. Download my [Hotkey](https://drive.google.com/drive/folders/1U94qH4k6L00Wd_96tJBmI2fsOA-HS1uK?usp=sharing) then run it
 
     3. Use `Forward Button` to use it
-        - This is assuming the `OCR (manga_ocr)` hotkey in `ShareX` is unchanged from `Shift + Alt + Q`
+        - This is assuming the `OCR` hotkey in `ShareX` is unchanged from `Shift + Alt + Q`
         - You can edit the hotkey by editing the script if you like
 
 ## FAQs

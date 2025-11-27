@@ -241,7 +241,7 @@ hide:
             - Replace the `Desired retention` after the computation
             - (Optional) `Tools` > `FSRS4Anki Helper` > `Reschedule all Cards`
             
-        - (Menu Bar - Top Left) `Tools` > `Preferences` and set the [settings](setupAnkiOld.md/#__tabbed_1_5) accordingly
+        - (Menu Bar - Top Left) `Tools` > `Preferences` and set the [settings](setupAnkiOld.md/#__tabbed_1_4) accordingly
 
         === "Settings 1"
             ![Anki Settings 1](../img/anki-settings-1.png){height=300 width=600}

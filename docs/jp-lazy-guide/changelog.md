@@ -10,6 +10,16 @@ hide:
 
 ---
 
+### November
+
+**2025-11-27**
+
+- Setup: Manga on Windows
+	- Updated to `owocr`
+
+- Miscellaneous
+	- Changed Setup: XX on PC to XX on Windows
+
 ### August
 
 **2025-08-07**

@@ -70,7 +70,7 @@ You are done setting up ShareX, next is Visual Novel for PC
 
     - `screenshot snip` and `screenshot nsfw snip`: Captures the region that you specify, similar to cropping
 
-    - `OCR (manga_ocr)` is used in [Manga OCR](setupMangaOnPC.md/#setup-mangaocr) while `OCR` is your default ShareX OCR
+    - `OCR (manga_ocr)` is used in [Manga OCR](setupMangaOnPC.md/#setup-ocr) while `OCR` is your default ShareX OCR
 
 #### Tip 1: Skip Audio Recording when Mining
 
