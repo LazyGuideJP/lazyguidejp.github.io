@@ -17,9 +17,6 @@ hide:
 - Setup: Manga on PC
 	- Updated to `owocr`
 
-- Miscellaneous
-	- Changed Setup: Changed most `PC` to `PC` to accomodate `Linux` in the future guide
-
 ### August
 
 **2025-08-07**
