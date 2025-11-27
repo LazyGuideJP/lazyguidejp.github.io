@@ -1,12 +1,12 @@
-# Setup: VN on PC
+# Setup: VN on Windows
 
-- [Textractor](setupVnOnPC.md/#setup-textractor) is a tool used to extract `text` from `Visual Novels`
+- [Textractor](setupVnOnWindows.md/#setup-textractor) is a tool used to extract `text` from `Visual Novels`
 
 ---
 
 Requirements:
 
-- [Yomitan On PC](setupYomitanOnPC.md) already set-up
+- [Yomitan On Windows](setupYomitanOnWindows.md) already set-up
 - Download [Textractor 5.2.0](https://drive.google.com/drive/folders/1up23CRT4JDMYeHlhhTISrBQHlLB1xezZ?usp=sharing) and extract([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) (Pass: `lazyguide`)
     - Some versions are messed up so I recommend sticking to this
     - (Optional) If you don't want to `Alt + Tab` or don't have a 2nd monitor to display `Texthooker Page`:
@@ -18,12 +18,12 @@ Requirements:
 
 ??? note "Set: System Locale - JP <small>(click here)</small>"
 
-    1. In your `PC`, press `Win + R` key
+    1. In your `Windows`, press `Win + R` key
 
     2. Type `intl.cpl` > `enter`
 
-    3. `Administrative` > `Change System Locale...` > `Japanese (Japan)` > Restart your `PC`
-        - This doesn't affect your `language` on `PC`
+    3. `Administrative` > `Change System Locale...` > `Japanese (Japan)` > Restart your `Windows`
+        - This doesn't affect your `language` on `Windows`
 
         ![System Locale JP](../img/system-locale-jp.png){height=250 width=500}
 
@@ -48,7 +48,7 @@ Requirements:
         ![Textracting](../img/textracting.png){height=500 width=1000}
 
 4. On your `Visual Novel`, play it so it can generate the text from the game, after 1-2 dialogues, check back on your `Texthooker` and find a `suitable hooked text` from the drop-down menu
-    - Check [Extra Info and Tips](setupVnOnPC.md/#extra-info-and-tips) if you have trouble finding the proper hook or the text is messy
+    - Check [Extra Info and Tips](setupVnOnWindows.md/#extra-info-and-tips) if you have trouble finding the proper hook or the text is messy
 
 5. If it's working properly it should look like this:
     - Click `Save hook(s)` if everything is alright
@@ -66,21 +66,21 @@ It is now texthooking, proceed to the guide below to be able to use the text fro
 
 Requirements:
 
-Make sure [Textractor](setupVnOnPC.md#setup-textractor) is already setup and running
+Make sure [Textractor](setupVnOnWindows.md#setup-textractor) is already setup and running
 
-Your `Visual Novel` running and already pasting text to `Textractor` like [this](setupVnOnPC.md#__tabbed_1_1)
+Your `Visual Novel` running and already pasting text to `Textractor` like [this](setupVnOnWindows.md#__tabbed_1_1)
 
 ---
 
 1. Go to `Textractor 5.2.0` folder and open `texthooker` page
 
-    ![Texthooker PC Page](../img/texthooker-pc-page.png){height=150 width=300}
+    ![Texthooker Windows Page](../img/texthooker-Windows-page.png){height=150 width=300}
 
 2. On the `texthooker` page, go to settings(on the top right):
 
     ![Texthooker Page Settings](../img/texthooker-page-settings.png){height=150 width=300}
 
-3. Copy the settings and paste the [Custom CSS](setupVnOnPC.md#__tabbed_2_2) after:
+3. Copy the settings and paste the [Custom CSS](setupVnOnWindows.md#__tabbed_2_2) after:
 
     === "Settings"
         ![Texthooker Page Checkbox](../img/texthooker-page-checkbox.png){height=200 width=400}
@@ -115,7 +115,7 @@ Now that the `Texthooker Page` is working, let's proceed on learning how to play
 
 [Proceed to VN on Android Setup](setupVnOnAndroid.md){ .md-button .md-button }
 
-<small>If you have any problems check [FAQs](setupVnOnPC.md/#faqs)</small>
+<small>If you have any problems check [FAQs](setupVnOnWindows.md/#faqs)</small>
 
 ---
 

@@ -18,7 +18,7 @@ hide:
 	- Updated to `owocr`
 
 - Miscellaneous
-	- Changed Setup: XX on PC to XX on Windows
+	- Changed Setup: Changed most `PC` to `Windows` to accomodate `Linux` in the future guide
 
 ### August
 
@@ -33,7 +33,7 @@ Minor updates; update only if you like
 
 - Lazy Guide
 	- Updated [Setup: Anki](setupAnki.md) and [Concise Guide to Jumpstart Japanese](conciseGuideToJumpstartJP.md) to accomodate `FSRS 6`
-	- Updated [Setup: Anime on PC](setupAnimeOnPC.md) to `asbplayer` shortcuts instead
+	- Updated [Setup: Anime on Windows](setupAnimeOnWindows.md) to `asbplayer` shortcuts instead
 
 ### April
 
@@ -56,9 +56,9 @@ Minor updates; update only if you like
 
 **2025-03-12**
 
-- Setup: VN on PC
+- Setup: VN on Windows
 	- Changed back the `texthooker page` to `Webhooker` kind
-	- Archived the [Clipboard Inserter](setupVnOnPCOld.md) way (no longer works on chrome)
+	- Archived the [Clipboard Inserter](setupVnOnWindowsOld.md) way (no longer works on chrome)
 
 ### February
 
@@ -129,7 +129,7 @@ Minor updates; update only if you like
 
 **2024-08-08**
 
-- Put the instructions on how to setup Sentence Card in [Setup: Anki](setupAnki.md/#question-5-how-can-i-use-sentence-card) and [Setup: Yomitan](setupYomitanOnPC.md/#question-3-how-can-i-use-sentence-card)
+- Put the instructions on how to setup Sentence Card in [Setup: Anki](setupAnki.md/#question-5-how-can-i-use-sentence-card) and [Setup: Yomitan](setupYomitanOnWindows.md/#question-3-how-can-i-use-sentence-card)
 
 - Updated the [Setup: Anki](setupAnki.md) `FSRS` instruction and images
 
@@ -252,9 +252,9 @@ Minor updates; update only if you like
 	- Archived [Setup: Anki (Old)](setupAnkiOld.md) in case we can re-use `JPMN Manager` in the future
 	- Updated Anki [addons](https://drive.google.com/drive/folders/1dfmYAp0eg_bhhAkohUISYaS6B6QOBtww?usp=sharing) and set `FSRS` as default
 
-- Updated [Mokuro Setup (Local Processing Method)](setupMangaOnPC.md/#local-processing-method)
+- Updated [Mokuro Setup (Local Processing Method)](setupMangaOnWindows.md/#local-processing-method)
 	- For existing users, simply paste this into cmd to update: `pip install git+https://github.com/ZXY101/mokuro.git@master`
-	- Updated Reading Processed Manga in both [PC](setupMangaOnPC.md#reading-processed-manga) and [Android](setupMangaOnAndroid.md/#setting-up)
+	- Updated Reading Processed Manga in both [Windows](setupMangaOnWindows.md#reading-processed-manga) and [Android](setupMangaOnAndroid.md/#setting-up)
 
 ---
 
@@ -276,7 +276,7 @@ Yomichan: [lazyGuide Yomichan Setup](https://drive.google.com/drive/folders/1DHJ
 
 **2023-07-17**
 
-- Added [Setup: Anime](setupAnimeOnPC.md)
+- Added [Setup: Anime](setupAnimeOnWindows.md)
 
 - Added more info and fix broken links
 
@@ -302,7 +302,7 @@ Updated: [Yomichan Local Audio](https://rentry.co/lazyGuide/#optional-yomichan-l
 
 - For android you must regenerate the database again and paste, and update [AnkiConnect Android](https://github.com/KamWithK/AnkiconnectAndroid/releases/latest)
 
-- Custom URL (JSON) has been replaced for both PC and android
+- Custom URL (JSON) has been replaced for both Windows and android
 
 ---
 
@@ -465,7 +465,7 @@ In [Anki add-ons](https://drive.google.com/drive/folders/1dfmYAp0eg_bhhAkohUISYa
 
 - [Manga OCR or Manga with Yomichan](https://rentry.co/lazyGuide#mangaocr-or-manga-with-yomichan) in replace of Capture2Text (It is inferior)
 
-- Replaced [Read Light Novel ANYWHERE with yomichan and mining](https://rentry.co/lazyGuide#read-light-novel-anywhere-with-yomichan-and-mining) FROM kiwi + zerotier TO Ankiconnect Android + ankidroid + kiwi setup (no PC turned on needed)
+- Replaced [Read Light Novel ANYWHERE with yomichan and mining](https://rentry.co/lazyGuide#read-light-novel-anywhere-with-yomichan-and-mining) FROM kiwi + zerotier TO Ankiconnect Android + ankidroid + kiwi setup (no Windows turned on needed)
 
 ---
 

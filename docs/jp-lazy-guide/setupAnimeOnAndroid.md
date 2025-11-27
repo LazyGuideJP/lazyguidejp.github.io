@@ -40,7 +40,7 @@ Requirements
     ![Android Player Buttons](../img/android-player-buttons.png){height=400 width=800}
 
 5. You can now mine with `Yomitan` by hovering over the words on the subtitle
-    - See [Anime Mining Demo](setupAnimeOnPC.md/#info-1-anime-mining-demo) (For PC)
+    - See [Anime Mining Demo](setupAnimeOnWindows.md/#info-1-anime-mining-demo) (For Windows)
     - Unfortunately, to get `Picture`, `screenshot` manually and upload it to your card details in `Ankidroid`
 
     ![Android Player Mining](../img/android-player-mining.png){height=400 width=800}
@@ -56,7 +56,7 @@ Wow! Setting up the Mining tools is finally done, how about checking Sub Guide?
 
 ## Extra Info and Tips
 
-#### Info 1: Anime Mining Demo (For PC)
+#### Info 1: Anime Mining Demo (For Windows)
 
 ??? info "Anime Mining Demo <small>(click here)</small>"
 

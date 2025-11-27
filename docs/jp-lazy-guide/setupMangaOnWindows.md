@@ -1,8 +1,8 @@
-# Setup: Manga on PC
+# Setup: Manga on Windows
 
-- [OCR](setupMangaOnPC.md/#setup-ocr) is a tool used to scan a `Japanese` text and return it to your clipboard which you can scan in `Yomitan`
+- [OCR](setupMangaOnWindows.md/#setup-ocr) is a tool used to scan a `Japanese` text and return it to your clipboard which you can scan in `Yomitan`
 
-- (Recommended) [Mokuro Manga](setupMangaOnPC.md/#setup-mokuro-manga) is a setup that first processes the `manga` to be able to hover the words and scan them using `Yomitan`
+- (Recommended) [Mokuro Manga](setupMangaOnWindows.md/#setup-mokuro-manga) is a setup that first processes the `manga` to be able to hover the words and scan them using `Yomitan`
 
 ---
 
@@ -11,8 +11,8 @@
 Requirements
 
 - Install [CDisplayEx](https://www.cdisplayex.com/desktop/)
-    - Manga Reader for `PC`
-- [Yomitan On PC](setupYomitanOnPC.md) and [ShareX](setupShareX.md) already set-up
+    - Manga Reader for `Windows`
+- [Yomitan On Windows](setupYomitanOnWindows.md) and [ShareX](setupShareX.md) already set-up
 
 ---
 
@@ -29,7 +29,7 @@ Requirements
 3. Type `pip install owocr[mangaocr,lens]`asdsad
     - Then just let it download/install for a few mins until it's done and you can type again
     - If `pip3 is not recognized...` then:
-        - Uninstall `Python`(step 1) > Restart the pc > reinstall `Python` (repeat if it didn't work; I know its dumb)
+        - Uninstall `Python`(step 1) > Restart the Windows > reinstall `Python` (repeat if it didn't work; I know its dumb)
 
 4. `Hotkey Settings`([ShareX](setupShareX.md)) > `OCR` > Click the `COG` icon > `override screenshot folder` > change the `path` to a specified `OCR` folder of your choice
 
@@ -39,11 +39,11 @@ Requirements
     - `owocr -e glens -w clipboard -j -d -r "\path\to\screenshot\folder"`
         - Copy the `path` that YOU specified in `step 4` to start the program, then just minimize the window
     - Typing `owocr` by itself without a path also works; it will `OCR`(scan) from everywhere
-    - If you want a `shortcut` program see: [Info 1](setupMangaOnPC.md/#info-1-ocr-shortcut-program)
+    - If you want a `shortcut` program see: [Info 1](setupMangaOnWindows.md/#info-1-ocr-shortcut-program)
 
 6. Capture anything using `Shift + Alt + Q` or whatever you set in `OCR` hotkey in ([ShareX](setupShareX.md))
-    - Make sure [Yomitan Search Page](setupMangaOnPC.md/#__tabbed_1_1) is opened
-    - If you want to `scan using mouse button`, see [Info 2](setupMangaOnPC.md/#info-2-scan-using-mouse-button)
+    - Make sure [Yomitan Search Page](setupMangaOnWindows.md/#__tabbed_1_1) is opened
+    - If you want to `scan using mouse button`, see [Info 2](setupMangaOnWindows.md/#info-2-scan-using-mouse-button)
 
 7. You can now start reading using `OCR`
 
@@ -55,7 +55,7 @@ Requirements
     === "CDisplayEx Manga"
         ![Anki | Light](../img/cdisplay-manga.png){height=300 width=600}
 
-You might also want to check [Mokuro Manga](setupMangaOnPC.md/#setup-mokuro-manga)
+You might also want to check [Mokuro Manga](setupMangaOnWindows.md/#setup-mokuro-manga)
 
 ---
 
@@ -63,9 +63,9 @@ You might also want to check [Mokuro Manga](setupMangaOnPC.md/#setup-mokuro-mang
 
 Choose between 2 options:
 
-- [Online Processing Method](setupMangaOnPC.md/#online-processing-method): ~processes 200 manga pages in ~15mins; straightforward guide
+- [Online Processing Method](setupMangaOnWindows.md/#online-processing-method): ~processes 200 manga pages in ~15mins; straightforward guide
 
-- [Local Processing Method](setupMangaOnPC.md/#local-processing-method): If you have a `strong PC` this is better; you are also `a know-how`
+- [Local Processing Method](setupMangaOnWindows.md/#local-processing-method): If you have a `strong Windows` this is better; you are also `a know-how`
 
 !!! note "Android Mining"
 
@@ -77,7 +77,7 @@ Choose between 2 options:
 
 1. Follow this [Setup Guide](https://colab.research.google.com/drive/1k-M1zr4hBnZTxlRODtNFn9r08XS5bKYB?usp=sharing)
 
-2. Download the processed `Manga` folder and see [Reading Processed Manga](setupMangaOnPC.md/#reading-processed-manga)
+2. Download the processed `Manga` folder and see [Reading Processed Manga](setupMangaOnWindows.md/#reading-processed-manga)
 
 
 ---
@@ -97,7 +97,7 @@ Choose between 2 options:
 4. Type `pip3 install mokuro`
     - Then just let it download/install for a few mins until it's done and you can type again
     - If `pip3 is not recognized...` then:
-        - Uninstall `Python`(step 1) > Restart the pc > reinstall `Python` (repeat if it didn't work; I know its dumb)
+        - Uninstall `Python`(step 1) > Restart the Windows > reinstall `Python` (repeat if it didn't work; I know its dumb)
 
 5. (Optional) Use `GPU CUDA`
     - Check if your GPU is [CUDA compatible](https://developer.nvidia.com/cuda-gpus)
@@ -134,7 +134,7 @@ Choose between 2 options:
         │    │    └── manga img file (.jpg/.png)
         ```
 
-7. See [Reading Processed Manga](setupMangaOnPC.md/#reading-processed-manga)
+7. See [Reading Processed Manga](setupMangaOnWindows.md/#reading-processed-manga)
 
 ---
 
@@ -162,7 +162,7 @@ Choose between 2 options:
         }
         ```
 
-    ![AnkiConnect PC](../img/ankiconnect-pc.png){height=150 width=300}
+    ![AnkiConnect Windows](../img/ankiconnect-Windows.png){height=150 width=300}
 
 2. Go to [Mokuro Reader](https://reader.mokuro.app/) > `Upload` Icon (top right) > `choose directory`
     - Select the `Manga` folder that contains the manga, mokuro'd files and .mokuro
@@ -170,7 +170,7 @@ Choose between 2 options:
 
     ![Mokuro upload](../img/mokuro-upload.png){height=300 width=600}
 
-3. In the top right, go to `settings` > `Profile` > `Select a File` > [Mokuro Profile](https://drive.google.com/drive/folders/17EzQL9ONQ3MVsCJwC7ejmL0317EwdR--?usp=sharing) > `Import Profiles` > Select `PC Profle`
+3. In the top right, go to `settings` > `Profile` > `Select a File` > [Mokuro Profile](https://drive.google.com/drive/folders/17EzQL9ONQ3MVsCJwC7ejmL0317EwdR--?usp=sharing) > `Import Profiles` > Select `Windows Profle`
     - Alternatively you can make your own profile just make sure to set-up everything on `Anki Connect` portion
 
     ![Mokuro Settings](../img/mokuro-settings.png){height=50 width=100}
@@ -186,11 +186,11 @@ Choose between 2 options:
 
     ocr files is optional but recommended to keep
 
-You can now mine Manga on PC, see how it's done in Android!
+You can now mine Manga on Windows, see how it's done in Android!
 
 [Proceed to Manga on Android Setup](setupMangaOnAndroid.md){ .md-button .md-button }
 
-<small>If you have any problems check [FAQs](setupMangaOnPC.md/#faqs)</small>
+<small>If you have any problems check [FAQs](setupMangaOnWindows.md/#faqs)</small>
 
 ## Extra Info and Tips
 

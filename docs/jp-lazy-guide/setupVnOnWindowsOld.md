@@ -7,17 +7,17 @@ hide:
 
 ??? danger "I'm aware that this is an Archive <small>(click here)</small>"
 
-    # Setup: VN on PC
+    # Setup: VN on Windows
 
-    - [Textractor](setupVnOnPCOld.md/#setup-textractor) is a tool used to extract `text` from `Visual Novels`
+    - [Textractor](setupVnOnWindowsOld.md/#setup-textractor) is a tool used to extract `text` from `Visual Novels`
 
-    - [Clipboard Inserter](setupVnOnPCOld.md/#setup-clipboard-inserter) is used to copy and paste the text extracted by `Textractor` into a `Texthooker` page where you can use `Yomitan` to scan the words and mine it into `Anki`
+    - [Clipboard Inserter](setupVnOnWindowsOld.md/#setup-clipboard-inserter) is used to copy and paste the text extracted by `Textractor` into a `Texthooker` page where you can use `Yomitan` to scan the words and mine it into `Anki`
 
     ---
 
     Requirements:
 
-    - [Yomitan On PC](setupYomitanOnPC.md) already set-up
+    - [Yomitan On Windows](setupYomitanOnWindows.md) already set-up
 
     - Download [Textractor 5.2.0](https://drive.google.com/drive/folders/1wm2mjxBdrkb4TR9WtUc4aLfaCAoC3EUF?usp=sharing) and extract([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) (Pass: `lazyguide`)
         
@@ -26,7 +26,7 @@ hide:
         - (Optional) If you don't want to `Alt + Tab` or don't have a 2nd monitor to display `Texthooker Page`:
             - [VN Texthooker on Android](https://rentry.co/android-texthook) and [Android Setup](setupLnOnAndroid.md)
 
-    [Clipboard Inserter](setupVnOnPCOld.md/#setup-clipboard-inserter)
+    [Clipboard Inserter](setupVnOnWindowsOld.md/#setup-clipboard-inserter)
 
     - Download `Clipboard Inserter` from [Chrome/Edge](https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/lap-clipboard-inserter/)
 
@@ -40,12 +40,12 @@ hide:
 
     ??? note "Set: System Locale - JP <small>(click here)</small>"
 
-        1. In your `PC`, press `Win + R` key
+        1. In your `Windows`, press `Win + R` key
 
         2. Type `intl.cpl` > `enter`
 
-        3. `Administrative` > `Change System Locale...` > `Japanese (Japan)` > Restart your `PC`
-            - This doesn't affect your `language` on `PC`
+        3. `Administrative` > `Change System Locale...` > `Japanese (Japan)` > Restart your `Windows`
+            - This doesn't affect your `language` on `Windows`
 
             ![System Locale JP](../img/system-locale-jp.png){height=250 width=500}
 
@@ -70,7 +70,7 @@ hide:
             ![Textracting](../img/textracting.png){height=500 width=1000}
 
     4. On your `Visual Novel`, play it so it can generate the text from the game, after 1-2 dialogues, check back on your `Texthooker` and find a `suitable hooked text` from the drop-down menu
-        - Check [Extra Info and Tips](setupVnOnPC.md/#extra-info-and-tips) if you have trouble finding the proper hook or the text is messy
+        - Check [Extra Info and Tips](setupVnOnWindows.md/#extra-info-and-tips) if you have trouble finding the proper hook or the text is messy
 
     5. If it's working properly it should look like this:
         - Click `Save hook(s)` if everything is alright
@@ -80,7 +80,7 @@ hide:
     === "Visual Novel Sample"
         ![Visual Novel Sample](../img/visual-novel-sample.png){height=500 width=1000}
 
-    It is now texthooking, proceed to [Clipboard Inserter](setupVnOnPCOld.md/#setup-clipboard-inserter) to be able to use the text from `Textractor` and use `Yomitan` on it
+    It is now texthooking, proceed to [Clipboard Inserter](setupVnOnWindowsOld.md/#setup-clipboard-inserter) to be able to use the text from `Textractor` and use `Yomitan` on it
 
     ---
 
@@ -99,7 +99,7 @@ hide:
 
     3. Go to `Textractor 5.2.0` folder and open `texthooker` page
 
-        ![Texthooker PC Page](../img/texthooker-pc-page.png){height=150 width=300}
+        ![Texthooker Windows Page](../img/texthooker-Windows-page.png){height=150 width=300}
 
     4. Turn on `Clipboard Inserter` Extension by clicking on it at the `Texthooker Page` located at the top right
 
@@ -115,7 +115,7 @@ hide:
 
     [Proceed to VN on Android Setup](setupVnOnAndroid.md){ .md-button .md-button }
 
-    <small>If you have any problems check [FAQs](setupVnOnPCOld.md/#faqs)</small>
+    <small>If you have any problems check [FAQs](setupVnOnWindowsOld.md/#faqs)</small>
 
     ---
 

@@ -1,4 +1,4 @@
-# Setup Yomitan PC
+# Setup Yomitan Windows
 
 - Yomitan is a mouse hover dictionary for Japanese
 - Used for `mining` to `Anki`
@@ -53,9 +53,9 @@
 
     ![Dictionary Import](../img/yomitan-dictionary-import.png){height=250 width=500}
 
-7. Then Scroll down, in `Backup` > `Import Settings` > `lazyGuide-yomitan-settings` (the file from [here](setupYomitanOnPC.md/#download-and-install))
+7. Then Scroll down, in `Backup` > `Import Settings` > `lazyGuide-yomitan-settings` (the file from [here](setupYomitanOnWindows.md/#download-and-install))
     - Pick either:
-        - `lazyGuide-local-audio-yomitan-settings` (Install: [Yomitan Local Audio](setupYomitanOnPC.md/#info-1-yomitan-local-audio))
+        - `lazyGuide-local-audio-yomitan-settings` (Install: [Yomitan Local Audio](setupYomitanOnWindows.md/#info-1-yomitan-local-audio))
         - `lazyGuide-non-local-audio-yomitan-settings`
 
         ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
@@ -72,11 +72,11 @@
         ![Yomitan Scan Key](../img/yomitan-scan-key.png){align=left height=300 width=600}
     
 
-Yomitan on PC setup is done, why not check out how to use Yomitan on Android?
+Yomitan on Windows setup is done, why not check out how to use Yomitan on Android?
 
 [Proceed to Yomitan on Android Setup](setupYomitanOnAndroid.md){ .md-button .md-button }
 
-<small>If you have any problems check [FAQs](setupYomitanOnPC.md/#faqs)</small>
+<small>If you have any problems check [FAQs](setupYomitanOnWindows.md/#faqs)</small>
 
 ---
 
@@ -88,7 +88,7 @@ Yomitan on PC setup is done, why not check out how to use Yomitan on Android?
 
     - Here's the [source](https://github.com/themoeway/local-audio-yomichan) for more info or latest updates
     - This might take an hour due to extraction; need Anki 2.1.50+
-    - [Yomitan Local Audio Source for Android](https://github.com/KamWithK/AnkiconnectAndroid#additional-instructions-local-audio) is also available but this(PC) setup is required
+    - [Yomitan Local Audio Source for Android](https://github.com/KamWithK/AnkiconnectAndroid#additional-instructions-local-audio) is also available but this(Windows) setup is required
 
     ---
 

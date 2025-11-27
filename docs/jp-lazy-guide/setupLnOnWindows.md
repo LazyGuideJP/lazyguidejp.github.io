@@ -1,6 +1,6 @@
-# Setup: LN on PC
+# Setup: LN on Windows
 
-- You can read `Light Novel` on `PC` as long as you have `epubs` of the `Light Novel` and a website to use the `epubs` on and use `yomitan`
+- You can read `Light Novel` on `Windows` as long as you have `epubs` of the `Light Novel` and a website to use the `epubs` on and use `yomitan`
 
 ---
 
@@ -8,7 +8,7 @@
 
 - Download `Light Novel` in `epubs` format of your choice
 
-- [Yomitan On PC](setupYomitanOnPC.md) already set-up
+- [Yomitan On Windows](setupYomitanOnWindows.md) already set-up
 
 ---
 
@@ -24,13 +24,13 @@
 
 3. You can now mine using `Yomitan` as usual
 
-    ![TTU Reader PC](../img/ttu-reader-pc.png){height=500 width=1000}
+    ![TTU Reader Windows](../img/ttu-reader-Windows.png){height=500 width=1000}
 
-You can now read Light Novels on PC, how about Android?
+You can now read Light Novels on Windows, how about Android?
 
 [Proceed to LN on Android Setup](setupLnOnAndroid.md){ .md-button .md-button }
 
-<small>If you have any problems check [FAQs](setupLnOnPC.md/#faqs)</small>
+<small>If you have any problems check [FAQs](setupLnOnWindows.md/#faqs)</small>
 
 ---
 
@@ -39,9 +39,9 @@ You can now read Light Novels on PC, how about Android?
 #### Info 1: My TTU Settings
 
 ??? info "My TTU Settings <small>(click here)</small>"
-    Here's my `PC` settings for `TTU`
+    Here's my `Windows` settings for `TTU`
 
-    ![TTU Settings Android](../img/ttu-settings-pc.png){height=500 width=1000}
+    ![TTU Settings Android](../img/ttu-settings-Windows.png){height=500 width=1000}
 
 #### Info 2: Text Replacement Pattern
 

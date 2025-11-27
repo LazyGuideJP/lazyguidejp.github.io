@@ -151,7 +151,7 @@ hide:
 
     9. Switch to my [Yomitan Setup](https://drive.google.com/drive/folders/1DHJ18Lk2_tVYWJ1Adhe8XByuyFBGuTr_?usp=sharing)
         - `Better Mono` and `updated dicts` that isn't currently compatible on my `Lazy` Format
-        - Follow [Yomitan On PC](setupYomitanOnPC.md) for easy import of `Dictionaries` and `Settings`
+        - Follow [Yomitan On Windows](setupYomitanOnWindows.md) for easy import of `Dictionaries` and `Settings`
 
     ---
 

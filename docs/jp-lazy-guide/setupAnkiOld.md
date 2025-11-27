@@ -24,8 +24,8 @@ hide:
 
     ## Download and Install
 
-    - Install `PC` [Anki](https://apps.ankiweb.net/) (Please don't use `Qt5`)
-        - [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki&hl=en_US) | [iOS](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (Install guide is for `PC` only but you can use it on mobile afterwards)
+    - Install `Windows` [Anki](https://apps.ankiweb.net/) (Please don't use `Qt5`)
+        - [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki&hl=en_US) | [iOS](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (Install guide is for `Windows` only but you can use it on mobile afterwards)
     - Download [Anki addons](https://drive.google.com/drive/folders/1O1ojoCG2HgejSgkFjWWDrmKlKfcaafTN?usp=sharing) (Pass: `lazyguide`)
 
     ---
@@ -256,7 +256,7 @@ hide:
 
     You now have an Anki Template, next is Yomitan
 
-    [Proceed to Yomitan Setup](setupYomitanOnPC.md){ .md-button .md-button }
+    [Proceed to Yomitan Setup](setupYomitanOnWindows.md){ .md-button .md-button }
 
     <small>If you have any problems check [FAQs](setupAnki.md/#faqs)</small>
 
@@ -350,7 +350,7 @@ hide:
 
     ??? question "How can I use sentence card? <small>(click here)</small>"
 
-        If you haven't yet, please setup [Yomitan](setupYomitanOnPC.md) first (The next guide after this)
+        If you haven't yet, please setup [Yomitan](setupYomitanOnWindows.md) first (The next guide after this)
 
         ??? info "Okay, I've already set it up! <small>(click here)</small>"
 
