@@ -12,13 +12,13 @@
         <meta name="author" content="LazyGuideJP">
       
       
-        <link rel="canonical" href="https://lazyguidejp.github.io/jp-lazy-guide/setupVnOnWindowsOld/">
+        <link rel="canonical" href="https://lazyguidejp.github.io/jp-lazy-guide/setupVnOnPC/">
       
       
-        <link rel="prev" href="../updatingAnkiJPMNNote/">
+        <link rel="prev" href="../setupShareX/">
       
       
-        <link rel="next" href="../subGuide/">
+        <link rel="next" href="../setupVnOnAndroid/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Setup: VN on Windows (Clipboard Inserter) - Lazy Guide</title>
+        <title>Setup: VN on PC - Lazy Guide</title>
       
     
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#setup-vn-on-windows" class="md-skip">
+        <a href="#setup-vn-on-pc" class="md-skip">
           Skip to content
         </a>
       
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Setup: VN on Windows (Clipboard Inserter)
+              Setup: VN on PC
             
           </span>
         </div>
@@ -310,8 +310,6 @@
         <div class="md-main__inner md-grid">
           
             
-              
-                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -708,14 +706,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../setupYomitanOnWindows/" class="md-nav__link">
+      <a href="../setupYomitanOnPC/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Setup: Yomitan Windows
+    Setup: Yomitan PC
   
 
     
@@ -797,6 +795,8 @@
                 
   
   
+    
+  
   
   
     
@@ -812,11 +812,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
@@ -837,7 +837,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -852,17 +852,44 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../setupVnOnWindows/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Setup: VN on PC
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    Setup: VN on Windows
+    Setup: VN on PC
   
 
     
@@ -871,6 +898,109 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup-textractor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setup: Textractor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-texthooker-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setup: Texthooker Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-info-and-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extra Info and Tips
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extra Info and Tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#info-1-finding-the-proper-texthook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Info 1: Finding the proper texthook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#info-2-using-regex-to-remove-unnecessary-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Info 2: Using Regex to remove unnecessary text
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#info-3-setting-the-dialogue-speed-to-max-to-prevent-missing-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Info 3: Setting the dialogue speed to max to prevent missing text
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -974,14 +1104,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../setupLnOnWindows/" class="md-nav__link">
+      <a href="../setupLnOnPC/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Setup: LN on Windows
+    Setup: LN on PC
   
 
     
@@ -1093,14 +1223,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../setupMangaOnWindows/" class="md-nav__link">
+      <a href="../setupMangaOnPC/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Setup: Manga on Windows
+    Setup: Manga on PC
   
 
     
@@ -1212,14 +1342,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../setupAnimeOnWindows/" class="md-nav__link">
+      <a href="../setupAnimeOnPC/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Setup: Anime on Windows
+    Setup: Anime on PC
   
 
     
@@ -1420,8 +1550,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1437,11 +1565,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" >
         
           
           <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="">
@@ -1462,7 +1590,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1589,44 +1717,17 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Setup: VN on Windows (Clipboard Inserter)
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../setupVnOnPCOld/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Setup: VN on Windows (Clipboard Inserter)
+    Setup: VN on PC (Clipboard Inserter)
   
 
     
@@ -1635,120 +1736,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#setup-textractor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Setup: Textractor
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setup-clipboard-inserter" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Setup: Clipboard Inserter
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#extra-info-and-tips" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Extra Info and Tips
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Extra Info and Tips">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#info-1-finding-the-proper-texthook" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Info 1: Finding the proper texthook
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#info-2-using-regex-to-remove-unnecessary-text" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Info 2: Using Regex to remove unnecessary text
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#info-3-setting-the-dialogue-speed-to-max-to-prevent-missing-text" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Info 3: Setting the dialogue speed to max to prevent missing text
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tip-1-getting-visual-novels" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tip 1: Getting Visual Novels
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#faqs" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        FAQs
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2063,8 +2050,6 @@
             
             
               
-                
-              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -2095,10 +2080,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#setup-clipboard-inserter" class="md-nav__link">
+  <a href="#setup-texthooker-page" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Setup: Clipboard Inserter
+        Setup: Texthooker Page
       
     </span>
   </a>
@@ -2150,17 +2135,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#tip-1-getting-visual-novels" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tip 1: Getting Visual Novels
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -2191,55 +2165,23 @@
               <article class="md-content__inner md-typeset">
                 
                   
-  
 
 
 
-
+<h1 id="setup-vn-on-pc">Setup: VN on PC</h1>
 <ul>
-<li>I recommend you to follow the current guide that's not on the Archive</li>
-</ul>
-<details class="danger">
-<summary>I'm aware that this is an Archive <small>(click here)</small></summary>
-<h1 id="setup-vn-on-windows">Setup: VN on Windows</h1>
-<ul>
-<li>
-<p><a href="./#setup-textractor">Textractor</a> is a tool used to extract <code>text</code> from <code>Visual Novels</code></p>
-</li>
-<li>
-<p><a href="./#setup-clipboard-inserter">Clipboard Inserter</a> is used to copy and paste the text extracted by <code>Textractor</code> into a <code>Texthooker</code> page where you can use <code>Yomitan</code> to scan the words and mine it into <code>Anki</code></p>
-</li>
+<li><a href="./#setup-textractor">Textractor</a> is a tool used to extract <code>text</code> from <code>Visual Novels</code></li>
 </ul>
 <hr />
 <p>Requirements:</p>
 <ul>
-<li>
-<p><a href="../setupYomitanOnWindows/">Yomitan On Windows</a> already set-up</p>
-</li>
-<li>
-<p>Download <a href="https://drive.google.com/drive/folders/1wm2mjxBdrkb4TR9WtUc4aLfaCAoC3EUF?usp=sharing">Textractor 5.2.0</a> and extract(<a href="https://www.webhostinghub.com/help/learn/website/managing-files/extract-file">?</a>) (Pass: <code>lazyguide</code>)</p>
-<ul>
-<li>
-<p>Some versions are messed up so I recommend sticking to this</p>
-</li>
-<li>
-<p>(Optional) If you don't want to <code>Alt + Tab</code> or don't have a 2nd monitor to display <code>Texthooker Page</code>:</p>
-<ul>
+<li><a href="../setupYomitanOnPC/">Yomitan On PC</a> already set-up</li>
+<li>Download <a href="https://drive.google.com/drive/folders/1up23CRT4JDMYeHlhhTISrBQHlLB1xezZ?usp=sharing">Textractor 5.2.0</a> and extract(<a href="https://www.webhostinghub.com/help/learn/website/managing-files/extract-file">?</a>) (Pass: <code>lazyguide</code>)<ul>
+<li>Some versions are messed up so I recommend sticking to this</li>
+<li>(Optional) If you don't want to <code>Alt + Tab</code> or don't have a 2nd monitor to display <code>Texthooker Page</code>:<ul>
 <li><a href="https://rentry.co/android-texthook">VN Texthooker on Android</a> and <a href="../setupLnOnAndroid/">Android Setup</a></li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-<p><a href="./#setup-clipboard-inserter">Clipboard Inserter</a></p>
-<ul>
-<li>
-<p>Download <code>Clipboard Inserter</code> from <a href="https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm">Chrome/Edge</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/lap-clipboard-inserter/">Firefox</a></p>
-</li>
-<li>
-<p><code>Clipboard Inserter</code> is used with <code>Texthooker Page</code> from the <a href="https://drive.google.com/drive/folders/1wm2mjxBdrkb4TR9WtUc4aLfaCAoC3EUF?usp=sharing">Textractor 5.2.0</a> and extract(<a href="https://www.webhostinghub.com/help/learn/website/managing-files/extract-file">?</a>) (Pass: <code>lazyguide</code>)</p>
-<ul>
-<li>Alternative <a href="https://github.com/Renji-XD/texthooker-ui">Texthooker Page w/Websocket</a> (only for know-how)</li>
 </ul>
 </li>
 </ul>
@@ -2251,15 +2193,15 @@
 <summary>Set: System Locale - JP <small>(click here)</small></summary>
 <ol>
 <li>
-<p>In your <code>Windows</code>, press <code>Win + R</code> key</p>
+<p>In your <code>PC</code>, press <code>Win + R</code> key</p>
 </li>
 <li>
 <p>Type <code>intl.cpl</code> &gt; <code>enter</code></p>
 </li>
 <li>
-<p><code>Administrative</code> &gt; <code>Change System Locale...</code> &gt; <code>Japanese (Japan)</code> &gt; Restart your <code>Windows</code></p>
+<p><code>Administrative</code> &gt; <code>Change System Locale...</code> &gt; <code>Japanese (Japan)</code> &gt; Restart your <code>PC</code></p>
 <ul>
-<li>This doesn't affect your <code>language</code> on <code>Windows</code></li>
+<li>This doesn't affect your <code>language</code> on <code>PC</code></li>
 </ul>
 <p><img alt="System Locale JP" height="250" src="../../img/system-locale-jp.png" width="500" /></p>
 </li>
@@ -2269,11 +2211,11 @@
 <h2 id="setup-textractor">Setup: Textractor</h2>
 <ol>
 <li>
+<p>Open the <code>Textractor</code> folder &gt; <code>x86</code> &gt; <code>Textractor</code></p>
 <ul>
 <li>99% of the time <code>x86</code> is better</li>
 <li>You can also create a <code>shortcut</code> or pin it to your taskbar</li>
 </ul>
-<p>Open the <code>Textractor</code> folder &gt; <code>x86</code> &gt; <code>Textractor</code></p>
 <p><img alt="Textractor App" height="250" src="../../img/textractor-app.png" width="500" /></p>
 </li>
 <li>
@@ -2293,7 +2235,7 @@
 <li>
 <p>On your <code>Visual Novel</code>, play it so it can generate the text from the game, after 1-2 dialogues, check back on your <code>Texthooker</code> and find a <code>suitable hooked text</code> from the drop-down menu</p>
 <ul>
-<li>Check <a href="../setupVnOnWindows/#extra-info-and-tips">Extra Info and Tips</a> if you have trouble finding the proper hook or the text is messy</li>
+<li>Check <a href="./#extra-info-and-tips">Extra Info and Tips</a> if you have trouble finding the proper hook or the text is messy</li>
 </ul>
 </li>
 <li>
@@ -2313,47 +2255,63 @@
 </div>
 </div>
 </div>
-<p>It is now texthooking, proceed to <a href="./#setup-clipboard-inserter">Clipboard Inserter</a> to be able to use the text from <code>Textractor</code> and use <code>Yomitan</code> on it</p>
+<p>It is now texthooking, proceed to the guide below to be able to use the text from <code>Textractor</code> and use <code>Yomitan</code> on it</p>
 <hr />
-<h2 id="setup-clipboard-inserter">Setup: Clipboard Inserter</h2>
+<h2 id="setup-texthooker-page">Setup: Texthooker Page</h2>
+<p>Requirements:</p>
+<p>Make sure <a href="./#setup-textractor">Textractor</a> is already setup and running</p>
+<p>Your <code>Visual Novel</code> running and already pasting text to <code>Textractor</code> like <a href="./#__tabbed_1_1">this</a></p>
+<hr />
 <ol>
 <li>
-<p>Go to <code>chrome://extensions</code> or <code>edge://extensions</code> or <code>about:addons</code>(firefox) and go to <code>Clipboard Inserter</code> extension settings</p>
+<p>Go to <code>Textractor 5.2.0</code> folder and open <code>texthooker</code> page</p>
+<p><img alt="Texthooker PC Page" height="150" src="../../img/texthooker-PC-page.png" width="300" /></p>
 </li>
 <li>
-<p>Make sure for:</p>
-<ul>
-<li>Chrome/Edge: <code>Allow access to file URLs</code> is enabled</li>
-<li>Firefox: <code>Access your data for all websites</code> is enabled</li>
-</ul>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Chrome/Edge</label><label for="__tabbed_2_2">Firefox</label></div>
+<p>On the <code>texthooker</code> page, go to settings(on the top right):</p>
+<p><img alt="Texthooker Page Settings" height="150" src="../../img/texthooker-page-settings.png" width="300" /></p>
+</li>
+<li>
+<p>Copy the settings and paste the <a href="./#__tabbed_2_2">Custom CSS</a> after:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Settings</label><label for="__tabbed_2_2">Custom CSS</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><img alt="Chrome/Edge URL Access" height="150" src="../../img/chromium-url-access.png" width="300" /></p>
+<p><img alt="Texthooker Page Checkbox" height="200" src="../../img/texthooker-page-checkbox.png" width="400" /></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="Firefox Yomitan Access to all websites" height="300" src="../../img/firefox-url-access.png" width="600" /></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>main &gt; p {
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    padding: 0rem !important;
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>}
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>main {
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    padding-left: min(3%, 5rem) !important;
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    padding-right: min(3%, 5rem) !important;
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>}
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>body &gt; div &gt; textarea {
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    font-size: 24px !important;
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>}
+</code></pre></div>
 </div>
 </div>
 </div>
 </li>
 <li>
-<p>Go to <code>Textractor 5.2.0</code> folder and open <code>texthooker</code> page</p>
-<p><img alt="Texthooker Windows Page" height="150" src="../../img/texthooker-Windows-page.png" width="300" /></p>
-</li>
-<li>
-<p>Turn on <code>Clipboard Inserter</code> Extension by clicking on it at the <code>Texthooker Page</code> located at the top right</p>
-<p><img alt="Clipboard Inserter" height="50" src="../../img/clipboard-inserter.png" width="100" /></p>
-</li>
-<li>
-<p>If working as intended it should paste anything you copy or from textractor:</p>
+<p>On the <code>texthooker</code> page, click the <code>plug</code> icon to turn on:</p>
 <ul>
-<li>You can now use Yomitan on it</li>
+<li>It should turn <code>green</code></li>
 </ul>
-<p><img alt="Texthooker Working" height="300" src="../../img/texthooker-paste.png" width="600" /></p>
+<p><img alt="Texthooker Enable" height="150" src="../../img/texthooker-enable.png" width="300" /></p>
+</li>
+<li>
+<p>Go back to your <code>Visual Novel</code> and try progressing on dialogues and it should be already working:</p>
+<p><img alt="Texthooker Page Pasting" height="300" src="../../img/texthooker-page-pasting.png" width="600" /></p>
+</li>
+<li>
+<p>Done! You should now be able to hover over words and mine</p>
 </li>
 </ol>
-<p>Now that the Clipboard Inserter is working, let's proceed on knowing how to play Visual Novel on Android</p>
+<p>Now that the <code>Texthooker Page</code> is working, let's proceed on learning how to play Visual Novel on Android</p>
 <p><a class="md-button md-button" href="../setupVnOnAndroid/">Proceed to VN on Android Setup</a></p>
 <p><small>If you have any problems check <a href="./#faqs">FAQs</a></small></p>
 <hr />
@@ -2392,16 +2350,7 @@
 </li>
 </ul>
 </details>
-<h4 id="tip-1-getting-visual-novels">Tip 1: Getting Visual Novels</h4>
-<details class="tip">
-<summary>Getting Visual Novels <small>(click here)</small></summary>
-<p>To get VNs, search around the web, go to <code>nyaa</code> or discord servers that have them or <code>BUY</code> them</p>
-<ul>
-<li>If you pm me, I can give you more details</li>
-</ul>
-</details>
 <h2 id="faqs">FAQs</h2>
-</details>
 
 
 
@@ -2435,8 +2384,6 @@
   
 
 
-  
-
 
 
                 
@@ -2461,12 +2408,10 @@
   
     
       
-        
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer" hidden>
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../updatingAnkiJPMNNote/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Updating: Anki JPMN Note">
+          <a href="../setupShareX/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Setup: ShareX">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2476,20 +2421,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Updating: Anki JPMN Note
+                Setup: ShareX
               </div>
             </div>
           </a>
         
         
           
-          <a href="../subGuide/" class="md-footer__link md-footer__link--next" aria-label="Next: Sub Guide Introduction">
+          <a href="../setupVnOnAndroid/" class="md-footer__link md-footer__link--next" aria-label="Next: Setup: VN on Android">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Sub Guide Introduction
+                Setup: VN on Android
               </div>
             </div>
             <div class="md-footer__button md-icon">
