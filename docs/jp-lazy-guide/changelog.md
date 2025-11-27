@@ -14,7 +14,7 @@ hide:
 
 **2025-11-27**
 
-- Setup: Manga on PC
+- [Setup: Manga on PC](setupMangaOnPC/#setup-ocr.md)
 	- Updated to `owocr`
 
 ### August
