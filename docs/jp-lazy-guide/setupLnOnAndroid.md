@@ -35,7 +35,7 @@ Requirements:
 
 You can now read Light Novels in Android, why not check out the Manga setup?
 
-[Proceed to Manga on Windows Setup](setupMangaOnWindows.md){ .md-button .md-button }
+[Proceed to Manga on PC Setup](setupMangaOnPC.md){ .md-button .md-button }
 
 <small>If you have any problems check [FAQs](setupLnOnAndroid.md/#faqs)</small>
 
@@ -69,7 +69,7 @@ You can now read Light Novels in Android, why not check out the Manga setup?
 
     Requirements:
     
-    - Make sure you have [Windows Yomitan Local Audio](setupYomitanOnWindows.md/#info-1-yomitan-local-audio) setup
+    - Make sure you have [PC Yomitan Local Audio](setupYomitanOnPC.md/#info-1-yomitan-local-audio) setup
 
     - You have [Ankiconnect Android](https://github.com/KamWithK/AnkiconnectAndroid/releases/latest) installed
 
@@ -79,17 +79,17 @@ You can now read Light Novels in Android, why not check out the Manga setup?
 
     ---
 
-    1. Within `Anki` on `Windows`: `Tools` > `Local Audio Server` > `Generate Android database`
+    1. Within `Anki` on `PC`: `Tools` > `Local Audio Server` > `Generate Android database`
         - This would take 30mins+ (Anki will be unuseable but you can mine)
     
-    2. Within `Anki` on `Windows`: either `Ctrl + Shift + A` or `Tools` > `Add-ons` > select `Local Audio Server for Yomitan` > `View Files`
+    2. Within `Anki` on `PC`: either `Ctrl + Shift + A` or `Tools` > `Add-ons` > select `Local Audio Server for Yomitan` > `View Files`
         - There will be a file named `android` or `android.db`
 
     3. On your android, open `AnkiConnect Android` > `Settings` > `Print Local Audio Directory`
         - This will show you the path as well as generate the folder
     
     4. On that location from 3rd step, usually: `Android/data/com.kamwithk.ankiconnectandroid/files/`
-        - Paste the `android` file ON `files` folder from `Windows` (2nd step)
+        - Paste the `android` file ON `files` folder from `PC` (2nd step)
         - The result should be: `Android/data/com.kamwithk.ankiconnectandroid/files/android.db`
         - Alternatively, use [MiXplorer](https://forum.xda-developers.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/#post-23109280) file manager if you only have android device
             - Only `Copy` from your download folder not `Cut`, otherwise it will not `Paste`

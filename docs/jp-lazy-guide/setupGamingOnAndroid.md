@@ -4,11 +4,11 @@ hide:
 ---
 # Setup: Gaming on Android
 
-- A portable heavy-gaming setup for `Android`; streaming your gaming Windows by using `Apollo` and `Artemis`
+- A portable heavy-gaming setup for `Android`; streaming your gaming PC by using `Apollo` and `Artemis`
 
 - This is **GAMING** focused not mining; an alternative Steam Deck
 
-- Similar to [Setup: VN on Windows](setupVnOnWindows.md) it streams from `Windows` to `Android`, but smoother compared to `Steam Link`
+- Similar to [Setup: VN on PC](setupVnOnPC.md) it streams from `PC` to `Android`, but smoother compared to `Steam Link`
     - Tested in 1440p/120fps max settings Cyberpunk 2077 and other lower spec games
 
 - Based on this [video](https://www.youtube.com/watch?v=ERC7UrkRL2c)
@@ -26,7 +26,7 @@ hide:
 
 ## Download and Install
 
-Windows:
+PC:
 
 - [Apollo .exe](https://github.com/ClassicOldSong/Apollo/releases/latest) (Host Server)
 
@@ -56,13 +56,13 @@ Android:
 
 ---
 
-#### Windows
+#### PC
 
 1. Start menu > search apollo > Open Apollo
 
 2. Setup profile > login
 
-3. Pin > PIN Pairing > pair your phone and Windows > connect
+3. Pin > PIN Pairing > pair your phone and PC > connect
 
 4. Pin > Device Management > select paired device > always create virtual display > save
     - This is where you also confirm if `Controller Input` is detected (pair your controller to your android first)
@@ -72,19 +72,19 @@ Android:
     - This will turn off your monitor while you're connected to your android device (Important for auto virtual display)
     - To apply changes: Troubleshooting > Restart Apollo (if no prompt)
 
-6. (OPTIONAL) On Android device, you can wake your Windows from Sleep/Hibernate through `Artemis`; Wake on LAN:
-    - On your Windows Windows, Device Manager > Network Adapter > Realtek(or whatever you are using as internet) > Properties > Advance > Wake on Magic Packet > Enable
-    - On your BIOS, look for wake up event settings > wake by WindowsI-E > Enable
+6. (OPTIONAL) On Android device, you can wake your PC from Sleep/Hibernate through `Artemis`; Wake on LAN:
+    - On your PC, Device Manager > Network Adapter > Realtek(or whatever you are using as internet) > Properties > Advance > Wake on Magic Packet > Enable
+    - On your BIOS, look for wake up event settings > wake by PCI-E > Enable
 
 ---
 
 ### How to use
 
-1. On your Android Device > Open Artemis > Select your Windows > Desktop
+1. On your Android Device > Open Artemis > Select your PC > Desktop
     - Then pick your game, including non-steam games
     - For keyboard gesture, 4 fingers tap at the same time (Spread through your screen, not together)
 
-2. Make sure to select `Quit Session` or Exit the app properly so your Windows monitor goes back to life
+2. Make sure to select `Quit Session` or Exit the app properly so your PC monitor goes back to life
 
 3. Enjoy? lol
 

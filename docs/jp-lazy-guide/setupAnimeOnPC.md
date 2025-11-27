@@ -1,4 +1,4 @@
-# Setup: Anime on Windows
+# Setup: Anime on PC
 
 - `asbplayer` is a browser video player that supports uploading of `Anime` and `subtitle` to be able hover over the words to use `yomitan`
 - With the browser extension, it should also support streaming platforms such as `Youtube` or `Netflix`
@@ -14,7 +14,7 @@
 
 Requirements
 
-- [Yomitan on Windows](setupYomitanOnWindows.md) and [ShareX](setupShareX.md) already set-up
+- [Yomitan on PC](setupYomitanOnPC.md) and [ShareX](setupShareX.md) already set-up
 
 ---
 
@@ -23,7 +23,7 @@ Requirements
 1. In your browser, go to `chrome://flags` or `edge://flags`
     - Search for `Experimental Web Platform features` > `Enabled`
 
-    ![Enable Experimental Web Platform Windows](../img/enable-experimental-web-platform.png){height=300 width=600}
+    ![Enable Experimental Web Platform PC](../img/enable-experimental-web-platform.png){height=300 width=600}
 
 2. Go to [asbplayer](https://killergerbah.github.io/asbplayer/)
     - Accept `request permission` to `Anki` and install the `Chrome extension`
@@ -40,9 +40,9 @@ Requirements
     - Ignore for streaming platforms like `Youtube` or `Netflix`
 
     === "Upload Files"
-        ![Pick Anime Windows](../img/pick-anime-Windows.png){height=300 width=600}
+        ![Pick Anime PC](../img/pick-anime-PC.png){height=300 width=600}
     === "Pick Anime and Sub"
-        ![Pick Anime & Subtitle Windows](../img/pick-anime-sub.png){height=300 width=600}
+        ![Pick Anime & Subtitle PC](../img/pick-anime-sub.png){height=300 width=600}
 
 5. To mine:
     - Hover over the word in the subtitles and mine with `Yomitan`
@@ -50,14 +50,14 @@ Requirements
     - (Optional) To change keyboard shortcuts: `Settings` > `Keyboard Shortcuts` > `Update last-created Anki card`
 
 6. You can now mine using `asbplayer` and `yomitan`!
-    - See [Anime Mining Demo](setupAnimeOnWindows.md/#info-1-anime-mining-demo)
+    - See [Anime Mining Demo](setupAnimeOnPC.md/#info-1-anime-mining-demo)
 
 
-You can now mine Anime on Windows, why not do it on Android too? (RIP eyes)
+You can now mine Anime on PC, why not do it on Android too? (RIP eyes)
 
 [Proceed to Setup: Anime on Android Setup](setupAnimeOnAndroid.md){ .md-button .md-button }
 
-<small>If you have any problems check [FAQs](setupAnimeOnWindows.md/#faqs)</small>
+<small>If you have any problems check [FAQs](setupAnimeOnPC.md/#faqs)</small>
 
 ---
 

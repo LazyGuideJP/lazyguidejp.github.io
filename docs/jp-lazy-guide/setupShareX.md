@@ -43,9 +43,9 @@
     - Make sure `Anki` is running to see the `Add(+)` button
     - Check out the [Mining Demo](index.md/#mining-demo)!
 
-You are done setting up ShareX, next is Visual Novel for Windows
+You are done setting up ShareX, next is Visual Novel for PC
 
-[Proceed to VN on Windows Setup](setupVnOnWindows.md){ .md-button .md-button }
+[Proceed to VN on PC Setup](setupVnOnPC.md){ .md-button .md-button }
 
 <small>If you have any problems check [FAQs](setupShareX.md/#faqs)</small>
 
@@ -70,7 +70,7 @@ You are done setting up ShareX, next is Visual Novel for Windows
 
     - `screenshot snip` and `screenshot nsfw snip`: Captures the region that you specify, similar to cropping
 
-    - `OCR (manga_ocr)` is used in [Manga OCR](setupMangaOnWindows.md/#setup-ocr) while `OCR` is your default ShareX OCR
+    - `OCR (manga_ocr)` is used in [Manga OCR](setupMangaOnPC.md/#setup-ocr) while `OCR` is your default ShareX OCR
 
 #### Tip 1: Skip Audio Recording when Mining
 

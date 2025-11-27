@@ -151,7 +151,7 @@ hide:
 
     9. Switch to my [Yomitan Setup](https://drive.google.com/drive/folders/1DHJ18Lk2_tVYWJ1Adhe8XByuyFBGuTr_?usp=sharing)
         - `Better Mono` and `updated dicts` that isn't currently compatible on my `Lazy` Format
-        - Follow [Yomitan On Windows](setupYomitanOnWindows.md) for easy import of `Dictionaries` and `Settings`
+        - Follow [Yomitan On PC](setupYomitanOnPC.md) for easy import of `Dictionaries` and `Settings`
 
     ---
 
@@ -159,7 +159,7 @@ hide:
 
     This is needed for people that used my Monolingual format or you won't have definitions on JPMN
 
-    1. Download and Install [Python](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe) (`3.10.xx ONLY`) and [Git](https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-64-bit.exe)
+    1. Download and Install [Python](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe) (`3.10.xx ONLY`) and [Git](https://github.com/git-for-PC/git/releases/download/v2.40.1.PC.1/Git-2.40.1-64-bit.exe)
 
         ??? note "Check 'Add Python to PATH' <small>(click here)</small>"
 

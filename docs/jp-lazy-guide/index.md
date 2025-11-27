@@ -22,10 +22,10 @@ New to Japanese and want to immerse quickly? See [Concise Guide to Jumpstart Jap
 - 4 in 1 Profile Support: `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, `Android (VN)`
 
 === "Anki"
-    === "Windows | Dark"
-        ![PC | Dark](../img/anki-Windows-dark.png){height=300 width=600}
-    === "Windows | Light"
-        ![PC | Light](../img/anki-Windows-light.png){height=300 width=600}
+    === "PC | Dark"
+        ![PC | Dark](../img/anki-PC-dark.png){height=300 width=600}
+    === "PC | Light"
+        ![PC | Light](../img/anki-PC-light.png){height=300 width=600}
     === "Mobile | Dark"
         ![Mobile | Dark](../img/anki-mobile-dark.png){height=600 width=350}
     === "Mobile | Light"

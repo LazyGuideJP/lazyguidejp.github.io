@@ -16,7 +16,7 @@ Requirements:
 
 - [Yomitan On Android](setupYomitanOnAndroid.md) already set-up
 
-- Processed Manga from [Setup: Mokuro Manga](setupMangaOnWindows.md/#setup-mokuro-manga)
+- Processed Manga from [Setup: Mokuro Manga](setupMangaOnPC.md/#setup-mokuro-manga)
 
 - File compressor such as [7z](https://www.7-zip.org/)
 
@@ -66,7 +66,7 @@ Requirements:
 
 You are now finally done in setting up Manga Mining in Android, how about checking out Anime Mining?
 
-[Proceed to Setup: Anime on Windows Setup](setupAnimeOnWindows.md){ .md-button .md-button }
+[Proceed to Setup: Anime on PC Setup](setupAnimeOnPC.md){ .md-button .md-button }
 
 <small>If you have any problems check [FAQs](setupMangaOnAndroid.md/#faqs)</small>
 

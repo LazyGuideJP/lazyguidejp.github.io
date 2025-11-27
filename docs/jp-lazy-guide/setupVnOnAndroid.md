@@ -1,16 +1,16 @@
 # Setup: VN on Android
 
 - You can play `Visual Novel` using an `Android` device running `Steam Link`
-- Your `Windows` must be running as the `Android` device will stream from your `Windows`
-- It still has all the features just as if you were in your `Windows`
+- Your `PC` must be running as the `Android` device will stream from your `PC`
+- It still has all the features just as if you were in your `PC`
 
 ---
 
 ## Requirements
 
-For Windows:
+For PC:
 
-- [Yomitan On Windows](setupYomitanOnWindows.md), [ShareX](setupShareX.md) and [VN on Windows](setupVnOnWindows.md) already set-up
+- [Yomitan On PC](setupYomitanOnPC.md), [ShareX](setupShareX.md) and [VN on PC](setupVnOnPC.md) already set-up
 
 - Running `Anki`, `Steam`, `Textractor` and `Texthooker` page
 
@@ -26,8 +26,8 @@ For Android:
 
 ## Setting Up
 
-1. In your `Windows`, open your `Steam Settings` > `Controller` > `Desktop Configuration`
-    - You must have your `Steam Link` connected and opened in your android while doing this on your Windows
+1. In your `PC`, open your `Steam Settings` > `Controller` > `Desktop Configuration`
+    - You must have your `Steam Link` connected and opened in your android while doing this on your PC
 
     ![Steam Settings](../img/steam-settings.png){height=250 width=500}
 
@@ -49,7 +49,7 @@ For Android:
 
     ![Steam Link Mouse](../img/steam-link-mouse.png){height=500 width=1000}
 
-6. On your `Windows` make sure `Texthooker Page` and `Visual Novel` is on different screen, then run your `Steam Link`
+6. On your `PC` make sure `Texthooker Page` and `Visual Novel` is on different screen, then run your `Steam Link`
     - Make sure when you run your `Visual Novel`, it is not launched via `Steam` or controller layout would not work
 
 7. Proceed to [Yomitan Configuration](setupVnOnAndroid.md/#yomitan-configuration) and [Mining VN on Android](setupVnOnAndroid.md/#mining-vn-on-android)
@@ -58,13 +58,13 @@ For Android:
 
 ## Yomitan Configuration
 
-1. On `Windows`, [Textractor 5.2.0](https://drive.google.com/drive/folders/1up23CRT4JDMYeHlhhTISrBQHlLB1xezZ?usp=sharing) and extract([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) (Pass: `lazyguide`) folder, open `texthooker - android` page
+1. On `PC`, [Textractor 5.2.0](https://drive.google.com/drive/folders/1up23CRT4JDMYeHlhhTISrBQHlLB1xezZ?usp=sharing) and extract([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) (Pass: `lazyguide`) folder, open `texthooker - android` page
 
 2. In your `texthooker - android` page, copy the `URL`
 
     ![Texthooker URL](../img/texthooker-url.png){height=250 width=500}
 
-3. On `Windows`, open `Yomitan Settings` > `Profile` > `Configure Profiles...` > `Android (VN)` > `Options` > `Edit conditions...`
+3. On `PC`, open `Yomitan Settings` > `Profile` > `Configure Profiles...` > `Android (VN)` > `Options` > `Edit conditions...`
 
     ![Yomitan Profile Option](../img/yomitan-profile-option.png){height=250 width=500}
 
@@ -87,7 +87,7 @@ For Android:
 !!! info "Note"
 
     - If you only have 1 monitor, customize your `Steam Controller Settings` > [M1-M8](setupVnOnAndroid.md/#setting-up) and put an `alt-tab` macro
-    - You can also turn off your Windows Monitor when using this setup
+    - You can also turn off your PC Monitor when using this setup
 
 Macros on my Steam Link:
 
@@ -99,9 +99,9 @@ Yomitan/Texthooker Page on my Android:
 
 
 
-You now mine VN on Android, why not check out Mining Light Novel on Windows?
+You now mine VN on Android, why not check out Mining Light Novel on PC?
 
-[Proceed to LN on Windows Setup](setupLnOnWindows.md){ .md-button .md-button }
+[Proceed to LN on PC Setup](setupLnOnPC.md){ .md-button .md-button }
 
 <small>If you have any problems check [FAQs](setupVnOnAndroid.md/#faqs)</small>
 
@@ -113,7 +113,7 @@ You now mine VN on Android, why not check out Mining Light Novel on Windows?
 
 ??? tip "Zoom in your texthooker - android page <small>(click here)</small>"
 
-    - If it's not big enough for you, on your `Windows` > `texthooker - android` page, Zoom in with `Ctrl + Mouse Scroll Wheel` to the `%` that you like
+    - If it's not big enough for you, on your `PC` > `texthooker - android` page, Zoom in with `Ctrl + Mouse Scroll Wheel` to the `%` that you like
 
 ## FAQs
 
@@ -121,7 +121,7 @@ You now mine VN on Android, why not check out Mining Light Novel on Windows?
 
 ??? question "How to use Monolingual Setup? <small>(click here)</small>"
 
-    1. In your `Windows`, go to `Yomitan` settings > `Profile (Editing)` > `Android (VN)`
+    1. In your `PC`, go to `Yomitan` settings > `Profile (Editing)` > `Android (VN)`
     
     2. `Yomitan` settings > `Dictionary` > Enable `all`
 

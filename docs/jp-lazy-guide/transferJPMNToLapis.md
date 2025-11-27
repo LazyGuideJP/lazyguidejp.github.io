@@ -62,7 +62,7 @@ hide:
 
 ??? question "How can I use sentence card? <small>(click here)</small>"
 
-    If you haven't yet, please setup [Yomitan](setupYomitanOnWindows.md) first
+    If you haven't yet, please setup [Yomitan](setupYomitanOnPC.md) first
 
     ??? info "Okay, I've already set it up! <small>(click here)</small>"
 
