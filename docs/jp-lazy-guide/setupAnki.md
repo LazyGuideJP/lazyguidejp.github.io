@@ -39,7 +39,7 @@
     
     ![lapis apkg](../img/lapis-apkg.png){height=150 width=300}
 
-5. Import `Lapis.apkg` to Anki
+5. Import `Lapis.apkg` to Anki (follow the image below)
 
     ![lapis import](../img/lapis-import.png){height=300 width=600}
 
