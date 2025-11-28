@@ -26,7 +26,7 @@ Requirements
 
 2. Open `command prompt` by winkey/search > `cmd`
 
-3. Type `pip install owocr[mangaocr,lens]`asdsad
+3. Type `pip install owocr[mangaocr,lens]`
     - Then just let it download/install for a few mins until it's done and you can type again
     - If `pip3 is not recognized...` then:
         - Uninstall `Python`(step 1) > Restart the PC > reinstall `Python` (repeat if it didn't work; I know its dumb)
@@ -46,7 +46,7 @@ Requirements
     - If you want to `scan using mouse button`, see [Info 2](setupMangaOnPC.md/#info-2-scan-using-mouse-button)
 
 7. You can now start reading using `OCR`
-    - Default is `Google Lens(l)`, you can switch engine by tapping `MangaOCR(m)` or `Bing(b)` inside the `command prompt`
+    - Default is `(l) Google Lens`, you can switch engine by tapping `(m) MangaOCR` or `(b) Bing` inside the `command prompt`
 
     ??? info "Video How-to <small>(click here)</small>"
         <iframe width="560" height="315" src="https://user-images.githubusercontent.com/22717958/150238361-052b95d1-0152-485f-a441-48a957536239.mp4" title="OCR How-to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
