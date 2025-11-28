@@ -19,7 +19,7 @@ Requirements
 ## Setup: OCR
 
 1. Download [python](https://www.python.org/downloads/release/python-3139/) (`Tested on 3.13.9 ONLY`)
-    - (Scroll down) Then choose PC/mac `INSTALLER (64-bit)` and install
+    - (Scroll down) Then choose windows/mac `INSTALLER (64-bit)` and install
     - Check `Add Python to PATH`
 
     ![Add Python to PATH](../img/add-python-to-path.png){height=300 width=600}
@@ -86,7 +86,7 @@ Choose between 2 options:
 ### Local Processing Method
 
 1. Download [python](https://www.python.org/downloads/release/python-3139/) (`Tested on 3.13.9 ONLY`)
-    - (Scroll down) Then choose PC/mac `INSTALLER (64-bit)` and install
+    - (Scroll down) Then choose windows/mac `INSTALLER (64-bit)` and install
     - Check `Add Python to PATH`
 
     ![Add Python to PATH](../img/add-python-to-path.png){height=300 width=600}
