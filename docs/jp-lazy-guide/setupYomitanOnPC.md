@@ -55,8 +55,8 @@
 
 7. Then Scroll down, in `Backup` > `Import Settings` > `lazyGuide-yomitan-settings` (the file from [here](setupYomitanOnPC.md/#download-and-install))
     - Pick either:
+        - `lazyGuide-non-local-audio-yomitan-settings` (Default)
         - `lazyGuide-local-audio-yomitan-settings` (Install: [Yomitan Local Audio](setupYomitanOnPC.md/#info-1-yomitan-local-audio))
-        - `lazyGuide-non-local-audio-yomitan-settings`
 
         ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
 
