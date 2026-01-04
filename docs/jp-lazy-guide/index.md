@@ -10,6 +10,7 @@ hide:
     - You want stable tools that lasts forever (If you don't update nothing will break)
 
     Do you want a detailed guide instead of spoonfed?: [Donkuri's Guide](https://donkuri.github.io/learn-japanese/)
+    
     A mix of spoonfed and details?: [Ten's Guide](https://www.ten.guide/)
 
 ---
