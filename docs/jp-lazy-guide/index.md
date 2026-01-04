@@ -5,11 +5,12 @@ hide:
 
 ??? note "What's the purpose of JP Lazy Guide? <small>(click here)</small>"
 
-    - People who don't want to bother customizing their settings or knowing stuff technically
+    - People who don't want to bother customizing their settings or knowing stuff technically aka fully spoonfed
     - For people who want an all-in-one import and everything and done compared to other fully detailed guides but scattered tools
     - You want stable tools that lasts forever (If you don't update nothing will break)
 
-    Do you want a very detailed guide instead of being spoonfed? Go to [Donkuri's Guide](https://donkuri.github.io/learn-japanese/)
+    Do you want a detailed guide instead of spoonfed?: [Donkuri's Guide](https://donkuri.github.io/learn-japanese/)
+    A mix of spoonfed and details?: [Ten's Guide](https://www.ten.guide/)
 
 ---
 
