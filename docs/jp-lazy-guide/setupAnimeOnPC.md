@@ -28,7 +28,7 @@ Requirements
 2. Go to [asbplayer](https://killergerbah.github.io/asbplayer/)
     - Accept `request permission` to `Anki` and install the `Chrome extension`
 
-3. On the top right of the page's settings(Cog icon); copy the [settings](setupAnki.md/#__tabbed_1_1) below
+3. On the top right of the page's settings(Cog icon); copy the [settings](setupAnimeOnPC.md/#__tabbed_1_1) below
     - You can ignore the other fields not in `red box`
 
     === "Anki"
