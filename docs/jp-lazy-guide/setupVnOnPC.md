@@ -48,7 +48,7 @@ Requirements:
         ![Textracting](../img/textracting.png){height=500 width=1000}
 
 4. On your `Visual Novel`, play it so it can generate the text from the game, after 1-2 dialogues, check back on your `Texthooker` and find a `suitable hooked text` from the drop-down menu
-    - Check [Extra Info and Tips](setupVnOnPC.md/#extra-info-and-tips) if you have trouble finding the proper hook or the text is messy
+    - Check [Extra Info and Tips](setupVnOnPC.md/#extra-info-and-tips) if you have trouble finding the proper hook or the text is messy/square-like glyphs
 
 5. If it's working properly it should look like this:
     - Click `Save hook(s)` if everything is alright
