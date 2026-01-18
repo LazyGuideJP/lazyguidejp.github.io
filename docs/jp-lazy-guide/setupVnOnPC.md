@@ -137,7 +137,13 @@ Now that the `Texthooker Page` is working, let's proceed on learning how to play
 
     - For regex you need some techy knowledge or search around for a specific VN
 
-#### Info 3: Setting the dialogue speed to max to prevent missing text
+#### Info 3: Textractor not showing Japanese characters properly; square-like glyphs
+
+??? info "Textractor not showing Japanese characters properly; square-like glyphs <small>(click here)</small>"
+
+    - On the `Texthooker` Application, highlight then rightclick the square-like glyphs > font > select `Meiryo UI`
+
+#### Info 4: Setting the dialogue speed to max to prevent missing text
 
 ??? info "Setting the dialogue speed to max to prevent missing text <small>(click here)</small>"
 
