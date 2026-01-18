@@ -6,6 +6,21 @@ hide:
 
 ---
 
+## 2026
+
+---
+
+### January
+
+**2026-01-18**
+
+- Lazy Guide
+	- Minor edits to a few pages and added a faq
+	- No major updates for the foreseeable future; hoping(thinking) to work on that linux setup tho
+
+
+---
+
 ## 2025
 
 ---
