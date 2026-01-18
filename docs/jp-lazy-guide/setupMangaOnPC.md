@@ -204,7 +204,7 @@ You can now mine Manga on PC, see how it's done in Android!
 
     2. Type the location of the item as:
         - Default: `C:\Windows\System32\cmd.exe /k owocr`
-        - OCR only from specific folder: `C:\PC\System32\cmd.exe /k owocr -e glens -j -d -w clipboard -r "\path\to\screenshot\folder"`
+        - OCR only from specific folder: `C:\Windows\System32\cmd.exe /k owocr -e glens -j -d -w clipboard -r "\path\to\screenshot\folder"`
             - For example: `C:\Windows\System32\cmd.exe /k owocr -e glens -j -d -w clipboard -r "E:\写真\OCR Picture"`
             - `Next` then `choose your name` and done
 
