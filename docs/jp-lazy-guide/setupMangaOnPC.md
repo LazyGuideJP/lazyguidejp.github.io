@@ -26,7 +26,7 @@ Requirements
 
 2. Open `command prompt` by winkey/search > `cmd`
 
-3. Type `pip install owocr[mangaocr,lens]`
+3. Type `pip install owocr[mangaocr,screenai,lens]`
     - Then just let it download/install for a few mins until it's done and you can type again
     - If `pip3 is not recognized...` then:
         - Uninstall `Python`(step 1) > Restart the PC > reinstall `Python` (repeat if it didn't work; I know its dumb)
@@ -36,7 +36,7 @@ Requirements
     ![ShareX OCR Path](../img/sharex-ocr-path.png){height=150 width=300}
 
 5. In `command prompt` type:
-    - `owocr -e glens -w clipboard -j -d -r "\path\to\screenshot\folder"`
+    - `owocr -e screenai -w clipboard -j -d -r "\path\to\screenshot\folder"`
         - Copy the `path` that YOU specified in `step 4` to start the program, then just minimize the window
     - Typing `owocr` by itself without a path also works; it will `OCR`(scan) from everywhere
     - If you want a `shortcut` program see: [Info 1](setupMangaOnPC.md/#info-1-ocr-shortcut-program)
@@ -46,7 +46,7 @@ Requirements
     - If you want to `scan using mouse button`, see [Info 2](setupMangaOnPC.md/#info-2-scan-using-mouse-button)
 
 7. You can now start reading using `OCR`
-    - Default is `(l) Google Lens`, you can switch engine by tapping `(m) or (n) MangaOCR` or `(b) Bing` inside the `command prompt`
+    - Default is `(j) Screen AI (Google Lens Local)`, you can switch engine by tapping `(l) Google Lens(Online) (m) or (n) MangaOCR` or `(b) Bing` inside the `command prompt`
 
     ??? info "Video How-to <small>(click here)</small>"
         <iframe width="560" height="315" src="https://user-images.githubusercontent.com/22717958/150238361-052b95d1-0152-485f-a441-48a957536239.mp4" title="OCR How-to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -204,8 +204,8 @@ You can now mine Manga on PC, see how it's done in Android!
 
     2. Type the location of the item as:
         - Default: `C:\Windows\System32\cmd.exe /k owocr`
-        - OCR only from specific folder: `C:\Windows\System32\cmd.exe /k owocr -e glens -j -d -w clipboard -r "\path\to\screenshot\folder"`
-            - For example: `C:\Windows\System32\cmd.exe /k owocr -e glens -j -d -w clipboard -r "E:\写真\OCR Picture"`
+        - OCR only from specific folder: `C:\Windows\System32\cmd.exe /k owocr -e screenai -j -d -w clipboard -r "\path\to\screenshot\folder"`
+            - For example: `C:\Windows\System32\cmd.exe /k owocr -e screenai -j -d -w clipboard -r "E:\写真\OCR Picture"`
             - `Next` then `choose your name` and done
 
 #### Info 2: Scan using Mouse Button
