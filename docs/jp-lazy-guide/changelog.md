@@ -9,6 +9,11 @@ hide:
 ## 2026
 
 ---
+### February
+
+**2026-02-28**
+- Setup: Manga
+  	- Added `screenai`(Google Lens local) as the default installer for `owocr`
 
 ### January
 
