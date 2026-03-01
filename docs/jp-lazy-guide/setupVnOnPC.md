@@ -141,7 +141,7 @@ Now that the `Texthooker Page` is working, let's proceed on learning how to play
 
 ??? info "Textractor not showing Japanese characters properly; square-like glyphs <small>(click here)</small>"
 
-    - On the `Texthooker` Application, highlight then rightclick the square-like glyphs > font > select `Meiryo UI`
+    - On the `Texthooker` Application, highlight then right click the square-like glyphs > font > select `Meiryo UI` or `MSゴシック`
 
 #### Info 4: Setting the dialogue speed to max to prevent missing text
 
