@@ -49,7 +49,7 @@ hide:
 
     **Japanese Input Install**
     
-    1. First, install the package for `fcitx5`, `mozc` and `noto-sans` font
+    1. First, install the package for `fcitx5`, `mozc` and `noto-sans jp` font
     ```
     sudo pacman -S fcitx5-im fcitx5-mozc noto-fonts-cjk
     ```
