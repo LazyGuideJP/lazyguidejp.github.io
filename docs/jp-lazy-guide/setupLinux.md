@@ -154,7 +154,7 @@ hide:
       
     2. On your Faugus Launcher, click the `add (+)` button > Game/App > Path > link your `Visual Novel's .exe` file
 
-    3. Right click your VN > Tools > Additional Application > Enable > Path > add your `Textractor .exe` (x86 is recommended)
+    3. Right click your VN > Edit > Tools tab > Additional Application > Enable > Path > add your `Textractor .exe` (x86 is recommended)
         ![Faugus Launcher - Textractor](../img/faugus-launcher-vn-setup.png){height=400 width=800}
 
     4. You can now follow the rest of the instructions on [Setup: VN on PC](setupVnOnPC.md)
