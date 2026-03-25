@@ -150,6 +150,7 @@ hide:
     1. Open `Faugus Launcher` then go to settings > Global Environment Variables > Add:
         - `LC_ALL=ja_jp.UTF-8`
         - `TZ=Asia/Tokyo`
+        - `PROTON_ENABLE_WAYLAND=0` (Optional - better for compatibility; such as no video playing)
         ![Faugus Launcher - Settings](../img/faugus-launcher-settings.png){height=400 width=800}
       
     2. On your Faugus Launcher, click the `add (+)` button > Game/App > Path > link your `Visual Novel's .exe` file
