@@ -31,3 +31,12 @@ git add .
 git commit -m $'Put your Info here'
 
 git push origin main
+
+Install in linux:
+sudo pacman -S python python-pip
+
+python3 -m venv ~/owocr-env
+source ~/owocr-env/bin/activate.fish
+
+pip install mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-redirects
+mkdocs serve

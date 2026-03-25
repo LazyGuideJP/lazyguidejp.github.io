@@ -9,6 +9,13 @@ hide:
 ## 2026
 
 ---
+
+### March
+
+**2026-03-25**
+
+- Finally made a linux guide: [Linux Overview](linuxOverview.md) & [Setup: Linux](setupLinux.md)
+
 ### February
 
 **2026-02-28**

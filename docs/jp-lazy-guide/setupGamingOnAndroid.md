@@ -26,15 +26,20 @@ hide:
 
 ## Download and Install
 
-PC:
+Windows:
 
 - [Apollo .exe](https://github.com/ClassicOldSong/Apollo/releases/latest) (Host Server)
 
 - [ViGEmBus .exe](https://github.com/nefarius/ViGEmBus/releases/latest) (For Controller compatibility)
 
+Linux:
+
+- [Sunshine](https://github.com/LizardByte/pacman-repo) (Host Server)
+
 Android:
 
  - [Artemis .apk](https://github.com/ClassicOldSong/moonlight-android/releases/latest) (Streaming App)
+ - [Moonlight](https://play.google.com/store/apps/details?id=com.limelight&pcampaignid=web_share) (Streaming App for linux)
 
 
 ---
