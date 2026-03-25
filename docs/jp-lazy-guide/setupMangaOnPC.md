@@ -141,7 +141,7 @@ Choose between 2 options:
 
 ### Reading Processed Manga
 
-- Skip `Step 1` if you're using my [setup](setupAnki.md)
+Skip `Step 1` if you're using my [setup](setupAnki.md)
 
 1. In your Anki, `Ctrl + Shift + A` or `Tools` > `Add-ons`
     - Select [AnkiConnect](https://ankiweb.net/shared/info/2055492159) > `Config`
