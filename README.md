@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 to create new: mkdocs new .
 
-to run: mkdocs serve
+to run: mkdocs serve --livereload
 
 
 To Push:
