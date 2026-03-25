@@ -287,7 +287,7 @@ hide:
     pip3 install mokuro
     ```
 
-    3. Two options to process, go to `cmd` then:
+    3. Two options to process, go to `terminal` then:
         - All Manga volumes:
             - Paste: `mokuro --parent_dir F:\Manga\Saenai`
                 - Replace full directory, Saenai with your manga name(no white-spaces)
