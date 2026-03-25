@@ -21,8 +21,11 @@ hide:
     - Flatpak
     - Python (for OCR/Manga)
     - Zen Browser (Optional; based on firefox)
+    - Fcitx5
+    - Mozc
+    - Noto Sans JP
     ```
-    sudo pacman -S p7zip flatpak python python-pip tk zen-browser-bin
+    sudo pacman -S p7zip flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjk
     ```
     
     **Flatpak**
