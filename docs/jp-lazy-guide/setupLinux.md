@@ -157,7 +157,7 @@ hide:
     3. Right click your VN > Edit > Tools tab > Additional Application > Enable > Path > add your `Textractor .exe` (x86 is recommended)
         ![Faugus Launcher - Textractor](../img/faugus-launcher-vn-setup.png){height=400 width=800}
 
-    4. You can now follow the rest of the instructions on [Setup: VN on PC](setupVnOnPC.md)
+    4. You can now follow the rest of the instructions on [Setup: VN on PC](setupVnOnPC.md) starting from `step 3` on [Textractor](setupVnOnPC.md/#setup-textractor)
         - After generating text on `Textractor`, the usual suspect is [Info 3: Textractor not showing Japanese characters properly; square-like glyphs](setupVnOnPC.md/#info-3-textractor-not-showing-japanese-characters-properly-square-like-glyphs)
 
     5. Done! Enjoy your VN
