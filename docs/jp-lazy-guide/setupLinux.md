@@ -7,7 +7,7 @@ hide:
     - To avoid confusion, I'll indicate if a guide is not needed (i.e. yomitan)
 
 - Work In Progress
-    - no automated SS & audio yet
+    - No automated SS & audio yet
 
 ---
 ???note "Prerequisite Packages <small>(click here)</small>"
@@ -25,7 +25,7 @@ hide:
     - Mozc
     - Noto Sans JP
     ```
-    sudo pacman -S p7zip flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjk
+    sudo pacman -S p7zip flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjkg
     ```
     
     **Flatpak**
