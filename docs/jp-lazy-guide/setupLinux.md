@@ -239,7 +239,7 @@ hide:
     nano ~/start_owocr.sh
     ```
 
-    2. Paste this(folder method recommended):
+    2. Paste this and save(folder method recommended):
         - Folder(change the path):
         ```
         #!/usr/bin/env fish
