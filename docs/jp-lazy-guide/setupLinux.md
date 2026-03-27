@@ -190,8 +190,8 @@ hide:
 
     1. On your terminal, go to `Python` environment:
     ```
-    python3 -m venv ~/owocr-env
-    source ~/owocr-env/bin/activate.fish
+    python3 -m venv ~/jptools-env
+    source ~/jptools-env/bin/activate.fish
     ```
 
     2. Then install `owocr`
@@ -222,13 +222,13 @@ hide:
     
     10. Folder(save & close):
     ```
-    source ~/owocr-env/bin/activate.fish
+    source ~/jptools-env/bin/activate.fish
     owocr -e glens -w clipboard -j -d -r "/path/to/your/OCR Picture/"
     ```
 
     11. Clipboard:
     ```
-    source ~/owocr-env/bin/activate.fish
+    source ~/jptools-env/bin/activate.fish
     owocr -e screenai -w clipboard -j -d -r clipboard
     ```
     12. Done!
@@ -244,14 +244,14 @@ hide:
         - Folder(change the path):
         ```
         #!/usr/bin/env fish
-        source ~/owocr-env/bin/activate.fish
+        source ~/jptools-env/bin/activate.fish
         owocr -e screenai -w clipboard -j -d -r "/path/to/your/OCR Picture/"
         chmod +x ~/start_owocr.sh
         ```
 
         - Clipboard:
         ```
-        source ~/owocr-env/bin/activate.fish
+        source ~/jptools-env/bin/activate.fish
         owocr -e screenai -w clipboard -j -d -r clipboard
         chmod +x ~/start_owocr.sh
         ```
@@ -279,8 +279,8 @@ hide:
 
     1. We can just reuse our `owocr` environment (yes, you need env everytime to use python)
     ```
-    python3 -m venv ~/owocr-env
-    source ~/owocr-env/bin/activate.fish
+    python3 -m venv ~/jptools-env
+    source ~/jptools-env/bin/activate.fish
     ```
 
     2. Install mokuro
