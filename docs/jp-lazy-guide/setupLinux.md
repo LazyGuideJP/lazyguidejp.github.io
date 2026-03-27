@@ -267,6 +267,13 @@ hide:
 ???note "Manga <small>(click here)</small>"  
     ## Manga
 
+    **Manga Package Install**
+
+    - On your terminal, paste:
+    ```
+    sudo pacman -S python python-pip tk
+    ```
+
     **OCR**
 
     - Refer to [OCR](setupLinux.md/#ocr)
@@ -277,11 +284,15 @@ hide:
 
     **Mokuro Manga (Local Processing Method)**
 
-    1. We can just reuse our `owocr` environment (yes, you need env everytime to use python)
+    1. We can just reuse our `jptools-env` environment used in `owocr` (yes, you need env everytime to use python)
     ```
-    python3 -m venv ~/jptools-env
     source ~/jptools-env/bin/activate.fish
     ```
+            Otherwise **if its your first time** generating the env run this instead:
+            ```
+            python3 -m venv ~/jptools-env
+            source ~/jptools-env/bin/activate.fish
+            ```
 
     2. Install mokuro
     ```
