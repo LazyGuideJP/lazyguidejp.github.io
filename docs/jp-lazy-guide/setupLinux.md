@@ -25,8 +25,10 @@ hide:
     - Mozc
     - Noto Sans JP
     ```
-    sudo pacman -S p7zip flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjkg
+    sudo pacman -S p7zip flatpak python python-pip tk fcitx5-im fcitx5-mozc noto-fonts-cjk
     ```
+
+    yay -S zen-browser-bin or paru -S zen-browser-bin
     
     **Flatpak**
 
