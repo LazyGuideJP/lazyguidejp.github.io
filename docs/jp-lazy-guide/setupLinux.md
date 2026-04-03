@@ -65,7 +65,7 @@ hide:
     SDL_IM_MODULE=fcitx
     XMODIFIERS=@im=fcitx
     ```
-    4. Then `CTRL + O` > `CTRL + X`
+    4. Then `CTRL + O` > ENTER > `CTRL + X`
 
     5. You can now close the terminal
     
