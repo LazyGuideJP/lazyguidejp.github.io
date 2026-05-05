@@ -32,11 +32,11 @@ git commit -m $'Put your Info here'
 
 git push origin main
 
-Install in linux:
+Install on linux:
 sudo pacman -S python python-pip
 
-python3 -m venv ~/jptools-env
-source ~/jptools-env/bin/activate.fish
+python3 -m venv ~/venvs/jp-lazy-guide-env
+source ~/venvs/jp-lazy-guide-env/bin/activate.fish
 
 pip install -r requirements.txt
 mkdocs serve --livereload
