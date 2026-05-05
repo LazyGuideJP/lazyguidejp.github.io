@@ -163,6 +163,10 @@ hide:
 
     5. Done! Enjoy your VN
 
+**WIP**
+
+If you want to mine with screenshot, check out [GameSentenceMiner](https://docs.gamesentenceminer.com/docs/getting-started/linux), github [here](https://github.com/bpwhelan/GameSentenceMiner)
+
 ---
 
 ???note "Light Novel <small>(click here)</small>"  
