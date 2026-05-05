@@ -164,7 +164,7 @@ hide:
     5. Done! Enjoy your VN
 
     **WIP**
-
+gi
     If you want to mine with screenshot, check out [GameSentenceMiner](https://docs.gamesentenceminer.com/docs/getting-started/linux), github [here](https://github.com/bpwhelan/GameSentenceMiner)
 
 ---
@@ -192,9 +192,10 @@ hide:
 
     **OCR Setup**
 
-    1. On your terminal, go to `Python` environment:
+    1. On your terminal, make a  `Python` environment:
     ```
-    python3 -m venv ~/jptools-env
+    mkdir -p ~/venvs
+    python3 -m venv ~/venvs/jptools-env
     source ~/jptools-env/bin/activate.fish
     ```
 
@@ -226,13 +227,13 @@ hide:
     
     10. Folder(save & close):
     ```
-    source ~/jptools-env/bin/activate.fish
+    source ~/venvs/jptools-env/bin/activate.fish
     owocr -e glens -w clipboard -j -d -r "/path/to/your/OCR Picture/"
     ```
 
     11. Clipboard:
     ```
-    source ~/jptools-env/bin/activate.fish
+    source ~/venvs/jptools-env/bin/activate.fish
     owocr -e screenai -w clipboard -j -d -r clipboard
     ```
     12. Done!
@@ -241,23 +242,24 @@ hide:
 
     1. Create a shortcut file:
     ```
-    nano ~/start_owocr.sh
+    mkdir -p ~/scripts
+    nano ~/scripts/start_owocr.sh
     ```
 
     2. Paste this and save(folder method recommended):
         - Folder(change the path):
         ```
         #!/usr/bin/env fish
-        source ~/jptools-env/bin/activate.fish
+        source ~/venvs/jptools/bin/activate.fish
         owocr -e screenai -w clipboard -j -d -r "/path/to/your/OCR Picture/"
-        chmod +x ~/start_owocr.sh
+        chmod +x ~/scripts/start_owocr.sh
         ```
 
         - Clipboard:
         ```
-        source ~/jptools-env/bin/activate.fish
+        source ~/venvs/jptools/bin/activate.fish
         owocr -e screenai -w clipboard -j -d -r clipboard
-        chmod +x ~/start_owocr.sh
+        chmod +x ~/scripts/start_owocr.sh
         ```
     
     3. KDE system settings > automatic startup > add `start_owocr.sh` (will work upon restart)
