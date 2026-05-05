@@ -164,7 +164,6 @@ hide:
     5. Done! Enjoy your VN
 
     **WIP**
-gi
     If you want to mine with screenshot, check out [GameSentenceMiner](https://docs.gamesentenceminer.com/docs/getting-started/linux), github [here](https://github.com/bpwhelan/GameSentenceMiner)
 
 ---
@@ -196,7 +195,7 @@ gi
     ```
     mkdir -p ~/venvs
     python3 -m venv ~/venvs/jptools-env
-    source ~/jptools-env/bin/activate.fish
+    source ~/venvs/jptools-env/bin/activate.fish
     ```
 
     2. Then install `owocr`
@@ -242,7 +241,7 @@ gi
 
     1. Create a shortcut file:
     ```
-    mkdir -p ~/scripts
+    mkdir -p ~/scriptsg
     nano ~/scripts/start_owocr.sh
     ```
 
@@ -250,14 +249,14 @@ gi
         - Folder(change the path):
         ```
         #!/usr/bin/env fish
-        source ~/venvs/jptools/bin/activate.fish
+        source ~/venvs/jptools-env/bin/activate.fish
         owocr -e screenai -w clipboard -j -d -r "/path/to/your/OCR Picture/"
         chmod +x ~/scripts/start_owocr.sh
         ```
 
         - Clipboard:
         ```
-        source ~/venvs/jptools/bin/activate.fish
+        source ~/venvs/jptools-env/bin/activate.fish
         owocr -e screenai -w clipboard -j -d -r clipboard
         chmod +x ~/scripts/start_owocr.sh
         ```
