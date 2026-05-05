@@ -242,7 +242,7 @@ hide:
 
     1. Create a shortcut file:
     ```
-    mkdir -p ~/scripts
+    mkdir -p ~/scriptsgi
     nano ~/scripts/start_owocr.sh
     ```
 
@@ -251,14 +251,14 @@ hide:
         ```
         #!/usr/bin/env fish
         source ~/venvs/jptools-env/bin/activate.fish
-        owocr -e screenai -w clipboard -j -d -r "/path/to/your/OCR Picture/"
+        owocr -e lens -w clipboard -j -d -r "/path/to/your/OCR Picture/"
         chmod +x ~/scripts/start_owocr.sh
         ```
 
         - Clipboard:
         ```
         source ~/venvs/jptools-env/bin/activate.fish
-        owocr -e screenai -w clipboard -j -d -r clipboard
+        owocr -e lens -w clipboard -j -d -r clipboard
         chmod +x ~/scripts/start_owocr.sh
         ```
     
