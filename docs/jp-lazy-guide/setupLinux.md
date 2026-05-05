@@ -242,7 +242,7 @@ hide:
 
     1. Create a shortcut file:
     ```
-    mkdir -p ~/scriptsg
+    mkdir -p ~/scripts
     nano ~/scripts/start_owocr.sh
     ```
 
