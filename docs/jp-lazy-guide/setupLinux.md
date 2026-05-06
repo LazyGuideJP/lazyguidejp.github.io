@@ -67,7 +67,7 @@ hide:
     XMODIFIERS=@im=fcitx
     ```
     4. Then `CTRL + O` > ENTER > `CTRL + X`
-
+gi
     5. You can now close the terminal
     
     **Japanese Input Setup**
@@ -146,7 +146,7 @@ hide:
 
         ![OBS Studio - Websocket](../img/obs-websocket.png){height=300 width=600}
 
-    6. On system tray > `OBS Studio` > Hide (if you are bothered)
+    6. On system tray > `OBS Studio`icon  > right click > Hide (if you are bothered)
         - Make sure to always have `Anki` and `OBS Studio`
     
     7. You can now mine and it will now auto screenshot anything you mine with the current set `Scene` window
