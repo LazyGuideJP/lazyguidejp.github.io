@@ -7,7 +7,7 @@ hide:
     - To avoid confusion, I'll indicate if a guide is not needed (i.e. yomitan)
 
 - Work In Progress
-    - No automated SS & audio yet
+    - Have [automated screenshot](setupLinux.md/#screenshot-mining) but no automated audio yet (check [GSM](https://github.com/bpwhelan/GameSentenceMiner) if you like, but its too bloated for my "lazy" taste)
 
 ---
 ???note "Prerequisite Packages <small>(click here)</small>"
@@ -18,6 +18,7 @@ hide:
     **Pacman**
 
     - 7zip (Optional)
+    - Anki
     - Flatpak
     - Python (for OCR/Manga)
     - Zen Browser (Optional; based on firefox)
@@ -25,14 +26,14 @@ hide:
     - Mozc
     - Noto Sans JP
     ```
-    sudo pacman -S p7zip flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjkg
+    sudo pacman -S p7zip anki flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjkg
     ```
     
     **Flatpak**
 
-    - Anki
+    - OBS Studio
     ```
-    flatpak install flathub -y net.ankiweb.Anki
+    flatpak install flathub -y com.obsproject.Studio
     ```
 
     **Paru (AUR)**
@@ -92,7 +93,7 @@ hide:
 
     - Install `Anki`
     ```
-    flatpak install flathub -y net.ankiweb.Anki
+    sudo pacman -S anki
     ```
 
     **Anki Setup**
@@ -112,6 +113,43 @@ hide:
     1. Just go straight to [Setup: Yomitan PC](./setupYomitanOnPC.md) and do the firefox way (even for zen browser)
       
     2. Done!
+
+---
+
+???note "Screenshot Mining <small>(click here)</small>"  
+    ## Screenshot Mining
+
+    **Requirements**
+
+    - Download [auto_screenshot](https://drive.google.com/drive/folders/1L_coaSRpdWoj7fKZFhgkttZROxm3YeHY?usp=sharing) anki addon (credits to kamper)
+
+    - Install [Anki](setupLinux.md/#anki) and `OBS Studio`
+    ```
+    flatpak install flathub -y com.obsproject.Studio
+    ```
+
+    **Screenshot Mining Setup**
+
+    1. Open your Anki, then `Ctrl + Shift + A` OR `Tools` > `Add-ons` > `View Files` (to open `addons` folder)
+
+    2. Extract([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `auto_screenshot.7z`(Pass: `lazyguide`) and paste the `auto_screenshot` folder to your `addons` folder
+
+    3. Restart `Anki`, then go to `Tools` > `Mining Mode` > `obs` (if not set already)
+        - You can turn off `obs mode` if you want to turn off screenshot feature
+
+    4. Open `OBS Studio` and skip the auto configs if it appears
+        - Then on your bottom left at `Sources` > add `Screen Capture` >  Create New > Confirm > add your whole `display` or a `specified application`
+
+            ![OBS Studio - Adding Source](../img/obs-adding-source.png){height=400 width=800}
+
+    5. `OBS Studio` look at toolbar > Tools > Websocket Server Settings > `Enable Websocket server` and disable `Enable Authentication`
+
+        ![OBS Studio - Websocket](../img/obs-websocket.png){height=300 width=600}
+
+    6. On system tray > `OBS Studio` > Hide (if you are bothered)
+        - Make sure to always have `Anki` and `OBS Studio`
+    
+    7. You can now mine and it will now auto screenshot anything you mine with the current set `Scene` window
 
 ---
 
@@ -162,10 +200,6 @@ hide:
         - After generating text on `Textractor`, the usual suspect is [Info 3: Textractor not showing Japanese characters properly; square-like glyphs](setupVnOnPC.md/#info-3-textractor-not-showing-japanese-characters-properly-square-like-glyphs)
 
     5. Done! Enjoy your VN
-
-    **WIP**
-    
-    If you want to mine with screenshot, check out [GameSentenceMiner](https://docs.gamesentenceminer.com/docs/getting-started/linux), github [here](https://github.com/bpwhelan/GameSentenceMiner)
 
 ---
 

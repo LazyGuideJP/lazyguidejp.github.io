@@ -10,6 +10,12 @@ hide:
 
 ---
 
+### May
+
+**2026-05-06**
+
+- Added [automated screenshot](setupLinux.md/#screenshot-mining) on [Setup: Linux](setupLinux.md)
+
 ### March
 
 **2026-03-25**

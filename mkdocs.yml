@@ -5,7 +5,7 @@ site_author: LazyGuideJP
 nav:
   - Home:
     - Introduction: 'jp-lazy-guide/index.md'
-    - Changelog (2026-03-25): 'jp-lazy-guide/changelog.md'
+    - Changelog (2026-05-06): 'jp-lazy-guide/changelog.md'
     - About: 'jp-lazy-guide/about.md'
     - Credits: 'jp-lazy-guide/credits.md'
     - Want to contribute?: 'jp-lazy-guide/wantToContribute.md'
