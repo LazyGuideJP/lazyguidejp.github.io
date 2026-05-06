@@ -26,7 +26,7 @@ hide:
     - Mozc
     - Noto Sans JP
     ```
-    sudo pacman -S p7zip anki flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjkg
+    sudo pacman -S p7zip anki flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjk
     ```
     
     **Flatpak**
@@ -66,7 +66,7 @@ hide:
     SDL_IM_MODULE=fcitx
     XMODIFIERS=@im=fcitx
     ```
-    4. Then `CTRL + O` > `CTRL + X`
+    4. Then `CTRL + O` > ENTER > `CTRL + X`
 
     5. You can now close the terminal
     
