@@ -428,7 +428,7 @@
   <span class="md-ellipsis">
     
   
-    Changelog (2026-03-25)
+    Changelog (2026-05-06)
   
 
     
@@ -1461,6 +1461,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#screenshot-mining" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screenshot Mining
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#visual-novel" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2246,6 +2257,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#screenshot-mining" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screenshot Mining
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#visual-novel" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2331,7 +2353,7 @@
 <li>
 <p>Work In Progress</p>
 <ul>
-<li>No automated SS &amp; audio yet</li>
+<li>Have <a href="./#screenshot-mining">automated screenshot</a> but no automated audio yet (check <a href="https://github.com/bpwhelan/GameSentenceMiner">GSM</a> if you like, but its too bloated for my "lazy" taste)</li>
 </ul>
 </li>
 </ul>
@@ -2343,19 +2365,20 @@
 <p><strong>Pacman</strong></p>
 <ul>
 <li>7zip (Optional)</li>
+<li>Anki</li>
 <li>Flatpak</li>
 <li>Python (for OCR/Manga)</li>
 <li>Zen Browser (Optional; based on firefox)</li>
 <li>Fcitx5</li>
 <li>Mozc</li>
 <li>Noto Sans JP
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo pacman -S p7zip flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjkg
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo pacman -S p7zip anki flatpak python python-pip tk zen-browser-bin fcitx5-im fcitx5-mozc noto-fonts-cjkg
 </code></pre></div></li>
 </ul>
 <p><strong>Flatpak</strong></p>
 <ul>
-<li>Anki
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>flatpak install flathub -y net.ankiweb.Anki
+<li>OBS Studio
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>flatpak install flathub -y com.obsproject.Studio
 </code></pre></div></li>
 </ul>
 <p><strong>Paru (AUR)</strong></p>
@@ -2420,7 +2443,7 @@
 <p><strong>Anki Install</strong></p>
 <ul>
 <li>Install <code>Anki</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>flatpak install flathub -y net.ankiweb.Anki
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sudo pacman -S anki
 </code></pre></div></li>
 </ul>
 <p><strong>Anki Setup</strong></p>
@@ -2452,6 +2475,59 @@
 </details>
 <hr />
 <details class="note">
+<summary>Screenshot Mining <small>(click here)</small></summary>
+<h2 id="screenshot-mining">Screenshot Mining</h2>
+<p><strong>Requirements</strong></p>
+<ul>
+<li>
+<p>Download <a href="https://drive.google.com/drive/folders/1L_coaSRpdWoj7fKZFhgkttZROxm3YeHY?usp=sharing">auto_screenshot</a> anki addon (credits to kamper)</p>
+</li>
+<li>
+<p>Install <a href="./#anki">Anki</a> and <code>OBS Studio</code>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>flatpak install flathub -y com.obsproject.Studio
+</code></pre></div></p>
+</li>
+</ul>
+<p><strong>Screenshot Mining Setup</strong></p>
+<ol>
+<li>
+<p>Open your Anki, then <code>Ctrl + Shift + A</code> OR <code>Tools</code> &gt; <code>Add-ons</code> &gt; <code>View Files</code> (to open <code>addons</code> folder)</p>
+</li>
+<li>
+<p>Extract(<a href="https://www.webhostinghub.com/help/learn/website/managing-files/extract-file">?</a>) <code>auto_screenshot.7z</code>(Pass: <code>lazyguide</code>) and paste the <code>auto_screenshot</code> folder to your <code>addons</code> folder</p>
+</li>
+<li>
+<p>Restart <code>Anki</code>, then go to <code>Tools</code> &gt; <code>Mining Mode</code> &gt; <code>obs</code> (if not set already)</p>
+<ul>
+<li>You can turn off <code>obs mode</code> if you want to turn off screenshot feature</li>
+</ul>
+</li>
+<li>
+<p>Open <code>OBS Studio</code> and skip the auto configs if it appears</p>
+<ul>
+<li>
+<p>Then on your bottom left at <code>Sources</code> &gt; add <code>Screen Capture</code> &gt;  Create New &gt; Confirm &gt; add your whole <code>display</code> or a <code>specified application</code></p>
+<p><img alt="OBS Studio - Adding Source" height="400" src="../../img/obs-adding-source.png" width="800" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>OBS Studio</code> look at toolbar &gt; Tools &gt; Websocket Server Settings &gt; <code>Enable Websocket server</code> and disable <code>Enable Authentication</code></p>
+<p><img alt="OBS Studio - Websocket" height="300" src="../../img/obs-websocket.png" width="600" /></p>
+</li>
+<li>
+<p>On system tray &gt; <code>OBS Studio</code> &gt; Hide (if you are bothered)</p>
+<ul>
+<li>Make sure to always have <code>Anki</code> and <code>OBS Studio</code></li>
+</ul>
+</li>
+<li>
+<p>You can now mine and it will now auto screenshot anything you mine with the current set <code>Scene</code> window</p>
+</li>
+</ol>
+</details>
+<hr />
+<details class="note">
 <summary>Visual Novel <small>(click here)</small></summary>
 <h2 id="visual-novel">Visual Novel</h2>
 <p>Note that this has been only tested for non-steam VNs</p>
@@ -2463,7 +2539,7 @@
 </li>
 <li>
 <p>Install <code>Faugus Launcher</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>paru -S --noconfirm faugus-launcher
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>paru -S --noconfirm faugus-launcher
 </code></pre></div></p>
 </li>
 </ul>
@@ -2471,7 +2547,7 @@
 <ol>
 <li>
 <p>On your terminal go to:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>sudo nano /etc/locale.gen
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>sudo nano /etc/locale.gen
 </code></pre></div></p>
 </li>
 <li>
@@ -2482,7 +2558,7 @@
 </li>
 <li>
 <p>Afterwards, run this command:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>sudo locale-gen
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>sudo locale-gen
 </code></pre></div></p>
 </li>
 </ol>
@@ -2514,8 +2590,6 @@
 <p>Done! Enjoy your VN</p>
 </li>
 </ol>
-<p><strong>WIP</strong></p>
-<p>If you want to mine with screenshot, check out <a href="https://docs.gamesentenceminer.com/docs/getting-started/linux">GameSentenceMiner</a>, github <a href="https://github.com/bpwhelan/GameSentenceMiner">here</a></p>
 </details>
 <hr />
 <details class="note">
@@ -2538,21 +2612,21 @@
 <p><strong>OCR Package Install</strong></p>
 <ul>
 <li>On your terminal, paste:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>sudo pacman -S python python-pip tk
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>sudo pacman -S python python-pip tk
 </code></pre></div></li>
 </ul>
 <p><strong>OCR Setup</strong></p>
 <ol>
 <li>
 <p>On your terminal, make a  <code>Python</code> environment:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>mkdir -p ~/venvs
-<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>python3 -m venv ~/venvs/jptools-env
-<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>source ~/venvs/jptools-env/bin/activate.fish
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>mkdir -p ~/venvs
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>python3 -m venv ~/venvs/jptools-env
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>source ~/venvs/jptools-env/bin/activate.fish
 </code></pre></div></p>
 </li>
 <li>
 <p>Then install <code>owocr</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>pip install &quot;owocr[mangaocr,screenai,lens]&quot;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>pip install &quot;owocr[mangaocr,screenai,lens]&quot;
 </code></pre></div></p>
 </li>
 <li>
@@ -2595,14 +2669,14 @@
 </li>
 <li>
 <p>Folder(save &amp; close):
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>source ~/venvs/jptools-env/bin/activate.fish
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>owocr -e glens -w clipboard -j -d -r &quot;/path/to/your/OCR Picture/&quot;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>source ~/venvs/jptools-env/bin/activate.fish
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>owocr -e glens -w clipboard -j -d -r &quot;/path/to/your/OCR Picture/&quot;
 </code></pre></div></p>
 </li>
 <li>
 <p>Clipboard:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>source ~/venvs/jptools-env/bin/activate.fish
-<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>owocr -e screenai -w clipboard -j -d -r clipboard
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>source ~/venvs/jptools-env/bin/activate.fish
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>owocr -e screenai -w clipboard -j -d -r clipboard
 </code></pre></div></p>
 </li>
 <li>Done!</li>
@@ -2611,8 +2685,8 @@
 <ol>
 <li>
 <p>Create a shortcut file:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>mkdir -p ~/scriptsgi
-<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>nano ~/scripts/start_owocr.sh
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>mkdir -p ~/scriptsgi
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>nano ~/scripts/start_owocr.sh
 </code></pre></div></p>
 </li>
 <li>
@@ -2620,17 +2694,17 @@
 <ul>
 <li>
 <p>Folder(change the path):
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>#!/usr/bin/env fish
-<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>source ~/venvs/jptools-env/bin/activate.fish
-<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>owocr -e lens -w clipboard -j -d -r &quot;/path/to/your/OCR Picture/&quot;
-<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>chmod +x ~/scripts/start_owocr.sh
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>#!/usr/bin/env fish
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>source ~/venvs/jptools-env/bin/activate.fish
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>owocr -e lens -w clipboard -j -d -r &quot;/path/to/your/OCR Picture/&quot;
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>chmod +x ~/scripts/start_owocr.sh
 </code></pre></div></p>
 </li>
 <li>
 <p>Clipboard:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>source ~/venvs/jptools-env/bin/activate.fish
-<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>owocr -e lens -w clipboard -j -d -r clipboard
-<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>chmod +x ~/scripts/start_owocr.sh
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>source ~/venvs/jptools-env/bin/activate.fish
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>owocr -e lens -w clipboard -j -d -r clipboard
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>chmod +x ~/scripts/start_owocr.sh
 </code></pre></div></p>
 </li>
 </ul>
@@ -2653,7 +2727,7 @@
 <p><strong>Manga Package Install</strong></p>
 <ul>
 <li>On your terminal, paste:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>sudo pacman -S python python-pip tk
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>sudo pacman -S python python-pip tk
 </code></pre></div></li>
 </ul>
 <p><strong>OCR</strong></p>
@@ -2668,16 +2742,16 @@
 <ol>
 <li>
 <p>We can just reuse our <code>jptools-env</code> environment used in <code>owocr</code> (yes, you need env everytime to use python)
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>source ~/jptools-env/bin/activate.fish
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>source ~/jptools-env/bin/activate.fish
 </code></pre></div>
         Otherwise <strong>if its your first time</strong> generating the env run this instead:
-        <div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>python3 -m venv ~/jptools-env
-<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>source ~/jptools-env/bin/activate.fish
+        <div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>python3 -m venv ~/jptools-env
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>source ~/jptools-env/bin/activate.fish
 </code></pre></div></p>
 </li>
 <li>
 <p>Install mokuro
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>pip3 install mokuro
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>pip3 install mokuro
 </code></pre></div></p>
 </li>
 <li>
@@ -2701,12 +2775,12 @@
 </ul>
 <details class="examplecode">
 <summary>Folder Structure <small>(click here)</small></summary>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>├── Manga Folder
-<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>│   ├── _ocr folder
-<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>│   ├── .html
-<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>│   ├── .mokuro
-<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>│   └── .zip
-<a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a>│    │    └── manga img file (.jpg/.png)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>├── Manga Folder
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>│   ├── _ocr folder
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>│   ├── .html
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>│   ├── .mokuro
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>│   └── .zip
+<a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a>│    │    └── manga img file (.jpg/.png)
 </code></pre></div>
 </details>
 </li>
@@ -2768,7 +2842,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 5, 2026 09:14:04 UTC">May 5, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 6, 2026 10:42:17 UTC">May 6, 2026</span>
   </span>
 
     
