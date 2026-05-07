@@ -45,10 +45,10 @@ hide:
 
 ---
 
-??? note "Japanese Input <small>(click here)</small>"
-    ## Japanese Input
+??? note "JP Input & Font Display <small>(click here)</small>"
+    ## JP Input
 
-    **Japanese Input Install**
+    **JP Input Install**
     
     1. First, install the package for `fcitx5`, `mozc` and `noto-sans jp` font
     ```
@@ -67,22 +67,560 @@ hide:
     XMODIFIERS=@im=fcitx
     ```
     4. Then `CTRL + O` > ENTER > `CTRL + X`
-gi
+
     5. You can now close the terminal
     
-    **Japanese Input Setup**
+    **JP Input Setup**
     
-    1. relogin/restart your PC
+    1. Relogin/restart your PC
 
     2. KDE system settings > keyboard > virtual keyboard > `Fcitx 5`
 
     3. KDE system settings > keyboard > configure keybindings > 日本語キーボードオプション > make zenkaku hankaku an additional esc > OFF
     
     4. KDE system settings > input method > add `Mozc` (Sometimes its already there)
-  
-    5. KDE system settings > apperance and style > text and font > change to `Noto Sans CJK JP`
-    
-    6. zen browser/firefox settings > change to `Noto Sans CJK JP` (advanced settings)
+
+    **Font Display**
+
+    1. Go to `~/.config/fontconfig/fonts.conf`
+
+    2. On your `fonts.conf`, replace everything with the config below based on [Arch Wiki](https://wiki.archlinux.org/title/Font_configuration/Examples#CJK,_but_other_Latin_fonts_are_preferred):
+
+        ??? note "font.conf <small>(click here)</small>"
+            ```
+            <?xml version="1.0"?>
+            <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+            <fontconfig>
+            <!-- Default serif font -->
+            <alias binding="strong">
+                <family>serif</family>
+                <prefer>
+                <family>PT Serif</family>
+                </prefer>
+            </alias>
+
+            <!-- Default sans-serif font -->
+            <alias binding="strong">
+                <family>sans-serif</family>
+                <prefer>
+                <family>Roboto</family>
+                </prefer>
+            </alias>
+
+            <!-- Default monospace font -->
+            <alias binding="strong">
+                <family>monospace</family>
+                <prefer>
+                <family>Cascadia Code PL</family>
+                </prefer>
+            </alias>
+
+            <!-- Default system-ui font -->
+            <alias binding="strong">
+                <family>system-ui</family>
+                <prefer>
+                <family>Roboto</family>
+                </prefer>
+            </alias>
+
+            <!-- Serif CJK -->
+
+            <!-- Default serif when the "lang" attribute is not given -->
+            <!-- You can change this font to the language variant you want -->
+            <match target="pattern">
+                <test name="family">
+                <string>serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Serif CJK SC</string>
+                </edit>
+            </match>
+
+            <!-- Japanese -->
+            <!-- "lang=ja" or "lang=ja-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>ja</string>
+                </test>
+                <test name="family">
+                <string>serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Serif CJK JP</string>
+                </edit>
+            </match>
+
+            <!-- Korean -->
+            <!-- "lang=ko" or "lang=ko-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>ko</string>
+                </test>
+                <test name="family">
+                <string>serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Serif CJK KR</string>
+                </edit>
+            </match>
+
+            <!-- Chinese -->
+            <!-- "lang=zh" or "lang=zh-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh</string>
+                </test>
+                <test name="family">
+                <string>serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Serif CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hans" or "lang=zh-hans-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hans</string>
+                </test>
+                <test name="family">
+                <string>serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Serif CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hant" or "lang=zh-hant-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hant</string>
+                </test>
+                <test name="family">
+                <string>serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Serif CJK TC</string>
+                </edit>
+            </match>
+            <!-- Compatible -->
+            <!-- "lang=zh-cn" or "lang=zh-cn-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-cn</string>
+                </test>
+                <test name="family">
+                <string>serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Serif CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-tw" or "lang=zh-tw-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-tw</string>
+                </test>
+                <test name="family">
+                <string>serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Serif CJK TC</string>
+                </edit>
+            </match>
+
+            <!-- Sans CJK -->
+
+            <!-- Default sans-serif when the "lang" attribute is not given -->
+            <!-- You can change this font to the language variant you want -->
+            <match target="pattern">
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK SC</string>
+                </edit>
+            </match>
+
+            <!-- Japanese -->
+            <!-- "lang=ja" or "lang=ja-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>ja</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK JP</string>
+                </edit>
+            </match>
+
+            <!-- Korean -->
+            <!-- "lang=ko" or "lang=ko-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>ko</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK KR</string>
+                </edit>
+            </match>
+
+            <!-- Chinese -->
+            <!-- "lang=zh" or "lang=zh-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hans" or "lang=zh-hans-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hans</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hant" or "lang=zh-hant-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hant</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK TC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hant-hk" or "lang=zh-hant-hk-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hant-hk</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK HK</string>
+                </edit>
+            </match>
+            <!-- Compatible -->
+            <!-- "lang=zh-cn" or "lang=zh-cn-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-cn</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-tw" or "lang=zh-tw-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-tw</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK TC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hk" or "lang=zh-hk-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hk</string>
+                </test>
+                <test name="family">
+                <string>sans-serif</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK HK</string>
+                </edit>
+            </match>
+
+            <!-- Mono CJK -->
+
+            <!-- Default monospace when the "lang" attribute is not given -->
+            <!-- You can change this font to the language variant you want -->
+            <match target="pattern">
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK SC</string>
+                </edit>
+            </match>
+
+            <!-- Japanese -->
+            <!-- "lang=ja" or "lang=ja-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>ja</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK JP</string>
+                </edit>
+            </match>
+
+            <!-- Korean -->
+            <!-- "lang=ko" or "lang=ko-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>ko</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK KR</string>
+                </edit>
+            </match>
+
+            <!-- Chinese -->
+            <!-- "lang=zh" or "lang=zh-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hans" or "lang=zh-hans-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hans</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hant" or "lang=zh-hant-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hant</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK TC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hant-hk" or "lang=zh-hant-hk-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hant-hk</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK HK</string>
+                </edit>
+            </match>
+            <!-- Compatible -->
+            <!-- "lang=zh-cn" or "lang=zh-cn-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-cn</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-tw" or "lang=zh-tw-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-tw</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK TC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hk" or "lang=zh-hk-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hk</string>
+                </test>
+                <test name="family">
+                <string>monospace</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans Mono CJK HK</string>
+                </edit>
+            </match>
+
+            <!-- System UI CJK -->
+
+            <!-- Default system-ui when the "lang" attribute is not given -->
+            <!-- You can change this font to the language variant you want -->
+            <match target="pattern">
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK SC</string>
+                </edit>
+            </match>
+
+            <!-- Japanese -->
+            <!-- "lang=ja" or "lang=ja-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>ja</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK JP</string>
+                </edit>
+            </match>
+
+            <!-- Korean -->
+            <!-- "lang=ko" or "lang=ko-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>ko</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK KR</string>
+                </edit>
+            </match>
+
+            <!-- Chinese -->
+            <!-- "lang=zh" or "lang=zh-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hans" or "lang=zh-hans-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hans</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hant" or "lang=zh-hant-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hant</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK TC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hant-hk" or "lang=zh-hant-hk-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hant-hk</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK HK</string>
+                </edit>
+            </match>
+            <!-- Compatible -->
+            <!-- "lang=zh-cn" or "lang=zh-cn-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-cn</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK SC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-tw" or "lang=zh-tw-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-tw</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK TC</string>
+                </edit>
+            </match>
+            <!-- "lang=zh-hk" or "lang=zh-hk-*" -->
+            <match target="pattern">
+                <test name="lang" compare="contains">
+                <string>zh-hk</string>
+                </test>
+                <test name="family">
+                <string>system-ui</string>
+                </test>
+                <edit name="family" mode="append" binding="strong">
+                <string>Noto Sans CJK HK</string>
+                </edit>
+            </match>
+            </fontconfig>
+            ```
+
+    3. Then, on your `terminal`, refresh your font
+    ```
+    fc-cache -fv
+    ```
+
+    4. Go to your Zen browser/Firefox settings > change to `Noto Sans CJK JP` (advanced settings)
+
+    5. Done!
 
 ---
 
