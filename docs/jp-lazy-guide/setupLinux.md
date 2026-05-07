@@ -74,7 +74,7 @@ hide:
     
     1. Relogin/restart your PC
 
-    2. KDE system settings > keyboard > virtual keyboard > `Fcitx 5`
+    2. KDE system settings > keyboard > virtual keyboard > `Fcitx 5 Wayland Launcher`
 
     3. KDE system settings > keyboard > configure keybindings > 日本語キーボードオプション > make zenkaku hankaku an additional esc > OFF
     
