@@ -45,8 +45,8 @@ hide:
 
 ---
 
-??? note "JP Input & Font Display <small>(click here)</small>"
-    ## JP Input
+??? note "JP Input and Font Display <small>(click here)</small>"
+    ## JP Input and Font Display
 
     **JP Input Install**
     
