@@ -31,12 +31,32 @@ to run:
 
 ```git push origin main```
 
-### Install on linux:
+### Install on linux(Based on CachyOS - Arch):
 
-```sudo pacman -S python python-pip```
+Install Python:
+```
+sudo pacman -S python python-pip
+```
+
+Run Python Environment:
 ```
 python3 -m venv ~/venvs/jp-lazy-guide-env
 source ~/venvs/jp-lazy-guide-env/bin/activate.fish
 ```
-```pip install -r requirements.txt```
-```mkdocs serve --livereload```
+
+Go to the lazy-guide repository folder then install dependencies:
+```
+pip install -r requirements.txt
+```
+
+Run it with:
+```
+mkdocs serve --livereload
+```
+
+Or copy pasta for later on:
+```
+python3 -m venv ~/venvs/lazy-guide-env
+source ~/venvs/lazy-guide-env/bin/activate.fish
+mkdocs serve --livereload
+```
