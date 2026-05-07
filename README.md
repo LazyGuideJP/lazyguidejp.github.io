@@ -17,26 +17,26 @@ This is in case I stopped caring about my guide, anyone else can continue it
 
 Then:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
-to create new: mkdocs new .
+to run: 
+```mkdocs serve --livereload```
 
-to run: mkdocs serve --livereload
 
+### To Push:
 
-To Push:
+```git add .```
 
-git add .
+```git commit -m $'Put your Info here'```
 
-git commit -m $'Put your Info here'
+```git push origin main```
 
-git push origin main
+### Install on linux:
 
-Install on linux:
-sudo pacman -S python python-pip
-
+```sudo pacman -S python python-pip```
+```
 python3 -m venv ~/venvs/jp-lazy-guide-env
 source ~/venvs/jp-lazy-guide-env/bin/activate.fish
-
-pip install -r requirements.txt
-mkdocs serve --livereload
+```
+```pip install -r requirements.txt```
+```mkdocs serve --livereload```
