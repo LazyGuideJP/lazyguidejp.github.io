@@ -688,7 +688,7 @@ hide:
         - Make sure to always have `Anki` and `OBS Studio`
     
     7. You can now mine and it will now auto screenshot anything you mine with the current set `Scene` window
-        - Make sure to start your `OBS Studio` first THEN `Anki` (Restart your `Anki` otherwise)
+        - If you got an error on `mining`, make sure to restart `Anki` (After making sure its on `Mining Mode: OBS` and `OBS Studio` running)
 
 ---
 
