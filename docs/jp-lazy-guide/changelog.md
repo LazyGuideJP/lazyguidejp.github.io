@@ -12,6 +12,10 @@ hide:
 
 ### May
 
+**2026-05-19**
+
+- Added `Firefox` option on [Setup: Yomitan Android](setupYomitanOnAndroid.md)
+
 **2026-05-07**
 
 - Added `font.conf` config file for [JP Input and Font Display](setupLinux.md/#jp-input-and-font-display) of the [Setup: Linux](setupLinux.md)

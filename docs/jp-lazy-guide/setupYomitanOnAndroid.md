@@ -8,12 +8,13 @@
 
 ## Download and Install
 
-- Install [Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary)
+- Install [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox&pcampaignid=web_share) or [Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary)
 
 - Download from [here](https://drive.google.com/drive/folders/1DHJ18Lk2_tVYWJ1Adhe8XByuyFBGuTr_?usp=sharing):
     - `Font`
     - `yomitan dictionary`
     - `lazyGuide-yomitan-settings`(download both)
+        - Firefox/Brave: `yomitan settings` [here](https://drive.google.com/drive/folders/1D_O7HgX4xMBOQcl2tLoeAQ7KUtPqyUnU?usp=sharing)
 
 - After Downloading:
     - Extract([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Font.7z` and `yomitan dictionary.7z` (Pass: `lazyguide`)
@@ -23,41 +24,82 @@
 
 ## Setting Up
 
-1. Go to `Menu` > `Settings` > `About Microsoft Edge` > `Privacy and Terms` > tap `Edge Canary build number` 7 times
-    - `Developer Options` should be enabled
+=== "Firefox"
 
-    ![Edge Canary Build Number](../img/edge-canary-build-number.png){height=200 width=400}
+    1. Go to `Settings` > `Extensions` > Tap `Yomitan Popup Dictionary` > `Settings(Cog Icon)`
 
-2. Go back in `Settings` > `Developer Options` > `Extension install by id` > paste this:
-    ```
-    idelnfbbmikgfiejhgmddlbkfgiifnnn
-    ```
+    4. On the `Welcome Page` turn on `Enable optional permissions`
 
-3. Click `Add` Yomitan Extension then wait a moment until it finishes downloading
-    - The `Welcome Page` should appear automatically or go to `Settings` > `Extensions` > Tap `Yomitan Popup Dictionary` > `Settings(Cog Icon)`
+        ![Enable optional permissions](../img/enable-optional-permissions.png){height=200 width=400}
 
-4. On the `Welcome Page` turn on `Enable optional permissions`
+    5. Next, go to `Settings Page` or `Settings` > `Extensions` > Tap `Yomitan Popup Dictionary` > `Settings(Cog Icon)`
 
-    ![Enable optional permissions](../img/enable-optional-permissions.png){height=200 width=400}
+    6. Go to `Dictionary` > `Configure installed and enabled dictionaries...` > `Import`
 
-5. Next, go to `Settings Page` or `Settings` > `Extensions` > Tap `Yomitan Popup Dictionary` > `Settings(Cog Icon)`
+        - Import all the dictionaries from `yomitan dictionary` folder (You can select them all and import all at once)
 
-6. Go to `Dictionary` > `Configure installed and enabled dictionaries...` > `Import`
-    - Import all the dictionaries from `yomitan dictionary` folder (You can select them all and import all at once)
-    - After importing; turn ON `Jitendex` and put it as priority #1 (very top)
+        - After importing; turn ON `Jitendex` and put it as priority #1 (very top)
 
-    ![Dictionary Import](../img/yomitan-dictionary-import.png){height=250 width=500}
+        ![Dictionary Import](../img/yomitan-dictionary-import.png){height=250 width=500}
 
-7. Then Scroll down, in `Backup` > `Import Settings` > `lazyGuide-yomitan-settings` (the file from [here](setupYomitanOnAndroid.md/#download-and-install))
-    - Pick either:
-        - `lazyGuide-non-local-audio-yomitan-settings` (Default)
-        - `lazyGuide-local-audio-yomitan-settings` (Install: [Yomitan Local Audio](setupYomitanOnAndroid.md/#info-1-android-yomitan-local-audio))
+    7. Then Scroll down, in `Backup` > `Import Settings` > `lazyGuide-yomitan-settings` (the file from [here](setupYomitanOnAndroid.md/#download-and-install))
 
-        ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
+        - Pick either:
 
-8. Pick `Android (Anime, LN & Manga)` as `Active profile`
+            - `lazyGuide-non-local-audio-yomitan-settings` (Default)
+            
+            - `lazyGuide-local-audio-yomitan-settings` (Install: [Yomitan Local Audio](setupYomitanOnAndroid.md/#info-1-android-yomitan-local-audio))
 
-    ![Yomitan Profile](../img/yomitan-profile-android.png){align=left height=300 width=600}
+            ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
+
+    8. Pick `Android (Anime, LN & Manga)` as `Active profile`
+
+        ![Yomitan Profile](../img/yomitan-profile-android.png){align=left height=300 width=600}
+
+=== "Edge Canary"
+    
+    1. Go to `Menu` > `Settings` > `About Microsoft Edge` > `Privacy and Terms` > tap `Edge Canary build number` 7 times
+        
+        - `Developer Options` should be enabled
+        
+        ![Edge Canary Build Number](../img/edge-canary-build-number.png){height=200 width=400}
+
+    2. Go back in `Settings` > `Developer Options` > `Extension install by id` > paste this:
+        ```
+        idelnfbbmikgfiejhgmddlbkfgiifnnn
+        ```
+
+    3. Click `Add` Yomitan Extension then wait a moment until it finishes downloading
+     
+        - The `Welcome Page` should appear automatically or go to `Settings` > `Extensions` > Tap `Yomitan Popup Dictionary` > `Settings(Cog Icon)`
+
+    4. On the `Welcome Page` turn on `Enable optional permissions`
+
+        ![Enable optional permissions](../img/enable-optional-permissions.png){height=200 width=400}
+
+    5. Next, go to `Settings Page` or `Settings` > `Extensions` > Tap `Yomitan Popup Dictionary` > `Settings(Cog Icon)`
+
+    6. Go to `Dictionary` > `Configure installed and enabled dictionaries...` > `Import`
+
+        - Import all the dictionaries from `yomitan dictionary` folder (You can select them all and import all at once)
+
+        - After importing; turn ON `Jitendex` and put it as priority #1 (very top)
+
+        ![Dictionary Import](../img/yomitan-dictionary-import.png){height=250 width=500}
+
+    7. Then Scroll down, in `Backup` > `Import Settings` > `lazyGuide-yomitan-settings` (the file from [here](setupYomitanOnAndroid.md/#download-and-install))
+
+        - Pick either:
+
+            - `lazyGuide-non-local-audio-yomitan-settings` (Default)
+
+            - `lazyGuide-local-audio-yomitan-settings` (Install: [Yomitan Local Audio](setupYomitanOnAndroid.md/#info-1-android-yomitan-local-audio))
+
+            ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
+
+    8. Pick `Android (Anime, LN & Manga)` as `Active profile`
+
+        ![Yomitan Profile](../img/yomitan-profile-android.png){align=left height=300 width=600}
 
 Yomitan setup is done, next is ShareX for convenient Mining
 
