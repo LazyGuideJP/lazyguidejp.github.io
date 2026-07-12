@@ -38,7 +38,7 @@ hide:
 
 ---
 
-## [採掘デモ](https://youtu.be/tUiXU2gn75g)
+## [マイニングデモ](https://youtu.be/tUiXU2gn75g)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tUiXU2gn75g" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
