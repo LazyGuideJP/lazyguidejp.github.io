@@ -58,7 +58,7 @@
         - `lazyGuide-non-local-audio-yomitan-settings` (Default)
         - `lazyGuide-local-audio-yomitan-settings` (Install: [Yomitan Local Audio](setupYomitanOnPC.md/#info-1-yomitan-local-audio))
 
-        ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
+        ![Yomitan Import Settings](../img/yomitan-import-settings.png){height=300 width=600}
 
 8. Pick a `Active profile`, usually between `Monolingual` and `Bilingual` (other profiles will be discussed in other sections)
     - `Bilingual` is default, you can hold `alt` while hovering over a word to use the `Monolingual` profile
@@ -69,7 +69,7 @@
 9. You should now be able to hover over words!
     - To change hotkey, `Yomitan` settings > `Scanning` > `Scan modifier key`
     
-        ![Yomitan Scan Key](../img/yomitan-scan-key.png){align=left height=300 width=600}
+        ![Yomitan Scan Key](../img/yomitan-scan-key.png){height=300 width=600}
     
 
 Yomitan on PC setup is done, why not check out how to use Yomitan on Android?

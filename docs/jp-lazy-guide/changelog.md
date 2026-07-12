@@ -10,6 +10,13 @@ hide:
 
 ---
 
+### July
+
+**2026-07-12**
+
+- Added `English` Guide for the Japanese people. (I just fed my guide to the AI since I'm lazy, pardon the japanese)
+	- Feel free to look at [ホーム](indexJP.md)、[セットアップ](setupJP.md)、[英語イマージョン入門ガイド](conciseGuideToJumpstartEN.md)
+
 ### May
 
 **2026-05-19**

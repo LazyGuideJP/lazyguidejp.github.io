@@ -5,7 +5,7 @@ site_author: LazyGuideJP
 nav:
   - Home:
     - Introduction: 'jp-lazy-guide/index.md'
-    - Changelog (2026-05-19): 'jp-lazy-guide/changelog.md'
+    - Changelog (2026-07-12): 'jp-lazy-guide/changelog.md'
     - About: 'jp-lazy-guide/about.md'
     - Credits: 'jp-lazy-guide/credits.md'
     - Want to contribute?: 'jp-lazy-guide/wantToContribute.md'
@@ -41,9 +41,22 @@ nav:
       - "Transfer: Lazy Setup to JPMN": 'jp-lazy-guide/transferLazyToJPMN.md'
       - "Updating: Anki JPMN Note": 'jp-lazy-guide/updatingAnkiJPMNNote.md'
       - "Setup: VN on PC (Clipboard Inserter)": 'jp-lazy-guide/setupVnOnPCOld.md'
+  - ホーム:
+    - イントロダクション: 'jp-lazy-guide/indexJP.md'
+  - セットアップ:
+    - セットアップガイド: 'jp-lazy-guide/setupJP.md'
+    - 必須ツール:
+      - "セットアップ: Anki": 'jp-lazy-guide/setupAnkiJP.md'
+      - "セットアップ: Yomitan PC": 'jp-lazy-guide/setupYomitanOnPCJP.md'
+      - "セットアップ: Yomitan Android": 'jp-lazy-guide/setupYomitanOnAndroidJP.md'
+      - "セットアップ: ShareX": 'jp-lazy-guide/setupShareXJP.md'
+    - Linux版:
+      - "Linuxの概要": 'jp-lazy-guide/linuxOverviewJP.md'
+      - "セットアップ: Linux": 'jp-lazy-guide/setupLinuxJP.md'
   - Sub Guide:
     - Sub Guide Introduction: 'jp-lazy-guide/subGuide.md'
     - Concise Guide to Jumpstart JP: 'jp-lazy-guide/conciseGuideToJumpstartJP.md'
+    - 英語イマージョン入門ガイドEN: 'jp-lazy-guide/conciseGuideToJumpstartEN.md'
     - Retention How-To: 'jp-lazy-guide/retentionHowTo.md'
   - Resources: 
     - Resources Introduction: 'jp-lazy-guide/resources.md'

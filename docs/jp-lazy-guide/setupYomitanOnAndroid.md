@@ -95,11 +95,11 @@
 
             - `lazyGuide-local-audio-yomitan-settings` (Install: [Yomitan Local Audio](setupYomitanOnAndroid.md/#info-1-android-yomitan-local-audio))
 
-            ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
+            ![Yomitan Import Settings](../img/yomitan-import-settings.png){height=300 width=600}
 
     8. Pick `Android (Anime, LN & Manga)` as `Active profile`
 
-        ![Yomitan Profile](../img/yomitan-profile-android.png){align=left height=300 width=600}
+        ![Yomitan Profile](../img/yomitan-profile-android.png){height=300 width=600}
 
 Yomitan setup is done, next is ShareX for convenient Mining
 
