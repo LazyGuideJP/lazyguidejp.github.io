@@ -27,7 +27,7 @@ Requirements:
 
     ![Yomitan Profile Android](../img/yomitan-profile-android.png){height=250 width=500}
 
-3. In `Firefox/Edge Canary`, open `https://reader.ttsu.app/` and upload your `Light Novel` epubs
+3. In `Firefox` or `Edge Canary`, open `https://reader.ttsu.app/` and upload your `Light Novel` epubs
 
 4. To ensure it's working, check that all sources are present
     - If it doesn't work, make sure AnkiConnect Android `Start Service` is running
