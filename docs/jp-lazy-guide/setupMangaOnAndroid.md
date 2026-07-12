@@ -1,6 +1,6 @@
 # Setup: Manga on Android
 
-- You can use your `Android` to read `Manga` using `Edge Canary` to scan words using `yomitan` on it
+- You can use your `Android` to read `Manga` using `Firefox` or `Edge Canary` to scan words using `yomitan` on it
 
 - This includes automated `Manga` screenshot even if you are in `Android`
 

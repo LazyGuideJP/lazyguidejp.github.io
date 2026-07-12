@@ -1,12 +1,13 @@
 # Setup: LN on Android
 
-- You can use your `Android` to read `Light Novel` using `Edge Canary` to scan words using `yomitan` on it
+- You can use your `Android` to read `Light Novel` using `Firefox` or `Edge Canary` to scan words using `yomitan` on it
 
 ---
 
 ## Download and Install
 
 - Download and Install [Ankiconnect Android](https://github.com/KamWithK/AnkiconnectAndroid/releases/latest) `.apk` file
+    - You probably need to turn off `Google Play Protect`
 
 - Install [Ankidroid](https://play.google.com/store/apps/details?id=com.ichi2.anki)
 
@@ -26,7 +27,11 @@ Requirements:
 
     ![Yomitan Profile Android](../img/yomitan-profile-android.png){height=250 width=500}
 
-3. In `Edge Canary`, open `https://reader.ttsu.app/` and upload your `Light Novel` epubs
+3. In `Firefox/Edge Canary`, open `https://reader.ttsu.app/` and upload your `Light Novel` epubs
+
+4. To ensure it's working, check that all sources are present
+    - If it doesn't work, make sure AnkiConnect Android `Start Service` is running
+    - Battery saving/optimization is off for AnkiConnect Android, Ankidroid and firefox/edge
 
 4. You can now `mine` in `Android` by `tapping` to scan the word
 
@@ -101,7 +106,7 @@ You can now read Light Novels in Android, why not check out the Manga setup?
     
     6. To ensure it's working, check that all sources are present
         - If it doesn't work, make sure AnkiConnect Android `Start Service` is running
-        - Battery saving/optimization is off for AnkiConnect Android, Ankidroid and Edge Canary
+        - Battery saving/optimization is off for AnkiConnect Android, Ankidroid and firefox/edge
 
         ![Yomitan Local Audio Check](../img/yomitan-local-audio-check.gif){height=250 width=500}
 
