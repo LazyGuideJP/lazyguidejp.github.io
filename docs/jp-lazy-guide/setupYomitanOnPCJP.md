@@ -67,7 +67,7 @@ PC版Yomitanのセットアップは完了です。
 
 続いてAndroid版Yomitanのセットアップを行いましょう。
 
-[Android版Yomitanのセットアップへ](setupYomitanOnAndroidJP.md){ .md-button .md-button }
+[Android版Yomitanのセットアップへ](setupShareXJP.md){ .md-button .md-button }
 
 <small>問題が発生した場合は、下記のFAQをご確認ください。</small>
 

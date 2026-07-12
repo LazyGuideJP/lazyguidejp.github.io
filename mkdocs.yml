@@ -48,8 +48,8 @@ nav:
     - 必須ツール:
       - "セットアップ: Anki": 'jp-lazy-guide/setupAnkiJP.md'
       - "セットアップ: Yomitan PC": 'jp-lazy-guide/setupYomitanOnPCJP.md'
-      - "セットアップ: Yomitan Android": 'jp-lazy-guide/setupYomitanOnAndroidJP.md'
       - "セットアップ: ShareX": 'jp-lazy-guide/setupShareXJP.md'
+      - "セットアップ: Yomitan Android": 'jp-lazy-guide/setupYomitanOnAndroidJP.md'
       - "セットアップ: ブラウザ Android": 'jp-lazy-guide/setupLnOnAndroidJP.md'
     - Linux版:
       - "Linuxの概要": 'jp-lazy-guide/linuxOverviewJP.md'

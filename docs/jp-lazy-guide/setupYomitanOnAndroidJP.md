@@ -96,7 +96,7 @@ Android版Yomitanのセットアップは完了です。
 
 次は、より快適にマイニングを行うためにShareXをセットアップしましょう。
 
-[ShareXのセットアップへ](setupShareXJP.md){ .md-button .md-button }
+[Androidのブラウザのセットアップへ](setupLnOnAndroidJP.md){ .md-button .md-button }
 
 <small>問題が発生した場合は、下記のFAQをご確認ください。</small>
 

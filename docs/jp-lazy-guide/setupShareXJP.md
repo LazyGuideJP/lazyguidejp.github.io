@@ -60,6 +60,8 @@
 
 ShareXのセットアップは完了です。
 
+[Yomitan Androidのセットアップへ](setupYomitanOnAndroidJP.md){ .md-button .md-button }
+
 <small>問題が発生した場合は、下記のFAQをご確認ください。</small>
 
 ---
