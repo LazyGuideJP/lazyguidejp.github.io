@@ -55,7 +55,7 @@
         - 毎月 `このﾌﾟﾘｾｯﾄで最適化` を実行します。
         - （任意）`デッキオプション` → `FSRS Helper` → `Reschedule all Cards`
 
-    - メニューバー左上の `ツール` → `設定` →　`学習` を開き、以下の設定を適用してください。
+    - メニューバー左上の `ツール` → `設定` → `学習` を開き、以下の設定を適用してください。
 
     === "設定１"
         ![Anki Settings 1](../img/anki-settings-1.png){height=300 width=600}
@@ -63,7 +63,7 @@
         ![Anki Settings 2](../img/anki-settings-2.png){height=300 width=600}
     === "設定３"
         ![Anki Settings 3](../img/anki-settings-3.png){height=300 width=600}
-    === "ツール　→　設定"
+    === "ツール　→　設定　→　学習"
         ![Anki Preference Settings](../img/anki-preference-settings.png){height=300 width=600}
 
 8. 最後にAnkiを再起動すればセットアップは完了です。

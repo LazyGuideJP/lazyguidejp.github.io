@@ -53,6 +53,8 @@ nav:
     - Linux版:
       - "Linuxの概要": 'jp-lazy-guide/linuxOverviewJP.md'
       - "セットアップ: Linux": 'jp-lazy-guide/setupLinuxJP.md'
+    - その他:
+      - "セットアップ：Androidでゲーム": 'jp-lazy-guide/setupGamingOnAndroidJP.md'
   - Sub Guide:
     - Sub Guide Introduction: 'jp-lazy-guide/subGuide.md'
     - Concise Guide to Jumpstart JP: 'jp-lazy-guide/conciseGuideToJumpstartJP.md'
