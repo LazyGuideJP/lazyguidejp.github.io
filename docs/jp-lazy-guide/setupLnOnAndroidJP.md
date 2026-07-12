@@ -36,7 +36,7 @@
     ![TTU Android](../img/ttu-android.png){height=150 width=300}
 
 
-これで Android で ブラウザ を読むことができます。
+これで Android のブラウザで読むことができます。
 
 
 <small>問題がある場合は [FAQ](setupLnOnAndroid.md/#faqs) を確認してください。</small>
