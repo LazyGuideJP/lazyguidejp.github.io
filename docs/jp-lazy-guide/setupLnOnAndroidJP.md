@@ -28,8 +28,8 @@
     ![Yomitan Profile Android](../img/yomitan-profile-android.png){height=250 width=500}
 
 3. 正しく動作しているか確認するため、すべてのソースが表示されていることを確認
-    - 動作しない場合は、AnkiConnect Android の `Start Service` が起動しているか確認
-    - AnkiConnect Android、Ankidroid、Firefox/Edge のバッテリー節約・最適化が無効になっているか確認
+    - 動作しない場合は、`AnkiConnect Android` の `Start Service` が起動しているか確認
+    - `AnkiConnect Android` と `Ankidroid` のバッテリーセーバー・最適化が無効になっているか確認
 
 4. これで Android 上で単語を `タップ` するだけで `採掘` できます。
 
