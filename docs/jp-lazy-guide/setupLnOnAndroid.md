@@ -22,7 +22,7 @@ Requirements:
 1. Open `AnkiConnect Android`, start the service
     - Open `Ankidroid` and leave it in the background
 
-2. Open your `Edge Canary` > `Yomitan Settings` > `Profile` > `Default` & `Editing` Profile > `Android (Anime, LN & Manga)`
+2. Open your `Firefox` or `Edge Canary` > `Yomitan Settings` > `Profile` > `Default` & `Editing` Profile > `Android (Anime, LN & Manga)`
     - If you are not using my `Yomitan settings`, see [Info 2](setupLnOnAndroid.md/#info-2-text-replacement-pattern)
 
     ![Yomitan Profile Android](../img/yomitan-profile-android.png){height=250 width=500}
