@@ -664,7 +664,7 @@ hide:
 
     **必要なもの**
 
-    - `auto_screenshot` Ankiアドオンをダウンロードします（作成者: kamper）
+    - [auto_screenshot](https://drive.google.com/drive/folders/1L_coaSRpdWoj7fKZFhgkttZROxm3YeHY?usp=sharing) Ankiアドオンをダウンロードします（作成者: kamper）
 
     - `Anki` と `OBS Studio` をインストールします。
 
