@@ -36,7 +36,7 @@
     - `Override screenshot folder` を有効にする
     - 保存先を以下に変更してください。
 
-      `%ApplicationData%\Anki2\**あなたのAnkiプロファイル名**\collection.media`
+      `%ApplicationData%\Anki2\**LazyGuide**\collection.media`
 
     - `LazyGuide` の部分は、自分のAnkiプロファイル名に変更してください。
     - プロファイル名はAnki左上、または `ファイル` → `プロファイルを切り替え` から確認できます。
