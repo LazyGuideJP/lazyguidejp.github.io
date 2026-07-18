@@ -31,7 +31,7 @@
     - 動作しない場合は、`AnkiConnect Android` の `Start Service` が起動しているか確認
     - `AnkiConnect Android` と `Ankidroid` のバッテリーセーバー・最適化が無効になっているか確認
 
-4. これで Android 上で単語を `タップ` するだけで `採掘` できます。
+4. これで Android 上で単語を `タップ` するだけで `マイニング` できます。
 
     ![TTU Android](../img/ttu-android.png){height=150 width=300}
 
