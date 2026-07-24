@@ -23,7 +23,7 @@
     - `Ankidroid` も開いて、バックグラウンドで起動したままにする
 
 2. `Firefox` または `Edge Canary` を開く → `Yomitan Settings` → `Profile` → `Default` & `Editing` Profile → `Android (Anime, LN & Manga)` を選択
-    - 自分の `Yomitan設定` を使用していない場合は、[Info 1](setupLnOnAndroidJP.md/#info-2text-replacement-pattern) を確認してください。
+    - 自分の `Yomitan設定` を使用していない場合は、[Info 1](setupLnOnAndroidJP.md/#info-1text-replacement-pattern) を確認してください。
 
     ![Yomitan Profile Android](../img/yomitan-profile-android.png){height=250 width=500}
 
