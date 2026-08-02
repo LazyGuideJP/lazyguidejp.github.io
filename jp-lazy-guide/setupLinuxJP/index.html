@@ -4043,9 +4043,7 @@ source ~/jptools-env/bin/activate.fish
 <summary>ゲーム <small>(クリックして開く)</small></summary>
 <h2 id="_8">ゲーム</h2>
 <p><strong>ゲーム関連パッケージのインストール</strong></p>
-<p>Steam以外のゲームや <code>.exe</code> インストーラーは、Steamの**「Steam以外のゲームを追加」から登録し、プロパティ → 互換性 →「特定のSteam Play互換ツールの使用を強制する」→ Proton CachyOS（最新版）を選択することで起動できます。
-<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications cachyos/umu-launcher
-</code></pre></div></p>
+<p>Steam以外のゲームや <code>.exe</code> インストーラーは、Steamの**「Steam以外のゲームを追加」から登録し、プロパティ → 互換性 →「特定のSteam Play互換ツールの使用を強制する」→ Proton CachyOS（最新版）を選択することで起動できます。</p>
 <p>以下は必要に応じてインストールしてください。</p>
 <ul>
 <li>
@@ -4058,6 +4056,9 @@ source ~/jptools-env/bin/activate.fish
 <p><strong>Twintail</strong>：一部のソーシャルゲーム（ガチャゲーム）向け</p>
 </li>
 </ul>
+<p>ターミナルに以下を貼り付けて実行してください：
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications cachyos/umu-launcher
+</code></pre></div></p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>paru -S --noconfirm faugus-launcher protonplus twintaillauncher-bin
 </code></pre></div>
 <p>インストール後、<strong>ProtonPlus</strong> を起動し、<strong>Proton-CachyOS（Latest）</strong> をインストールしてください。</p>
@@ -4105,12 +4106,17 @@ source ~/jptools-env/bin/activate.fish
 </div>
 </div>
 </div>
+<ol>
+<li>
+<p>PCを再起動してください。</p>
+</li>
+<li>
+<p>※基本的には <strong>Steam</strong> のみ設定すれば十分です。<strong>Lutris</strong> や <strong>Heroic</strong> は必須ではないため、必要になるまで無視して構いません。</p>
 <ul>
-<li>※基本的には <strong>Steam</strong> のみ設定すれば十分です。<strong>Lutris</strong> や <strong>Heroic</strong> は必須ではないため、必要になるまで無視して構いません。<ul>
 <li>Lutris は GOG・Epic Games・EA・Ubisoft に対応しています。必要な場合は、<strong>Runner → Wine → 設定 → Wine version → Proton-CachyOS（Latest）</strong> を選択してください。</li>
 </ul>
 </li>
-</ul>
+</ol>
 <p>参考資料： <a href="https://wiki.cachyos.org/configuration/gaming/">CachyOS Gaming</a> (右上の言語メニューから日本語に変更できます。)</p>
 </details>
 <hr />
@@ -4137,7 +4143,7 @@ source ~/jptools-env/bin/activate.fish
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 2, 2026 02:34:34 UTC">August 2, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 2, 2026 02:45:58 UTC">August 2, 2026</span>
   </span>
 
     
