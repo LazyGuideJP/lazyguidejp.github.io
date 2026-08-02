@@ -943,10 +943,7 @@ hide:
     **ゲーム関連パッケージのインストール**
 
     Steam以外のゲームや `.exe` インストーラーは、Steamの**「Steam以外のゲームを追加」から登録し、プロパティ → 互換性 →「特定のSteam Play互換ツールの使用を強制する」→ Proton CachyOS（最新版）を選択することで起動できます。
-    ```
-    sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications cachyos/umu-launcher
-    ```
-    
+
     以下は必要に応じてインストールしてください。
 
     - **Faugus**：ノベルゲーム向け
@@ -954,6 +951,12 @@ hide:
     - **ProtonPlus**：Protonのインストール・管理ツール
 
     - **Twintail**：一部のソーシャルゲーム（ガチャゲーム）向け
+
+    ターミナルに以下を貼り付けて実行してください：
+    ```
+    sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications cachyos/umu-launcher
+    ```
+
 
     ```
     paru -S --noconfirm faugus-launcher protonplus twintaillauncher-bin
@@ -992,6 +995,8 @@ hide:
         ```
         __GL_SHADER_DISK_CACHE_SIZE=12000000000
         ```
+
+    3. PCを再起動してください。
 
     - ※基本的には **Steam** のみ設定すれば十分です。**Lutris** や **Heroic** は必須ではないため、必要になるまで無視して構いません。
         - Lutris は GOG・Epic Games・EA・Ubisoft に対応しています。必要な場合は、**Runner → Wine → 設定 → Wine version → Proton-CachyOS（Latest）** を選択してください。

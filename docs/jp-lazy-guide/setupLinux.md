@@ -930,11 +930,16 @@ hide:
     **Installing gaming packages/launchers**
 
     Non steam game setup/EXEs can be launched by adding it through steam as non-steam game > options > compatibility mode > Proton CachyOS (Latest)
+
+    - **Faugus** is for VNs
+    - **ProtonPlus** is for Proton used to be able to launch windows games/apps on Linux
+    - **Twintail** is for gacha games
+
+    In your terminal paste this:
     ```
     sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications cachyos/umu-launcher
     ```
-    
-    Faugus is for VNs, ProtonPlus is for Proton used to be able to launch windows games/apps on Linux, Twintail is for gacha games
+
     ```
     paru -S --noconfirm faugus-launcher protonplus twintaillauncher-bin
     ```
@@ -956,7 +961,7 @@ hide:
     micro ~/.config/environment.d/gaming.conf
     ```
 
-    2. Choose between AMD/Nvidia (GPU) then paste this then save (CTRL + S).
+    2. Choose between AMD/Nvidia (GPU), paste this then save (CTRL + S).
     === "AMD"
         ```
         MESA_SHADER_CACHE_MAX_SIZE=12G
@@ -965,6 +970,8 @@ hide:
         ```
         __GL_SHADER_DISK_CACHE_SIZE=12000000000
         ```
+    
+    3. Restart your PC.
 
     - NOTE: You can pretty much just focus on Steam and ignore Lutris/Heroic since you can install it on Steam alone.
         - Lutris has support for GOG/Epic/EA/Ubisoft in case you need them, under Runners > Wine > Settings > Wine version > Proton-CachyOS (Latest)
