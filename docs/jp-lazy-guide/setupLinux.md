@@ -6,8 +6,6 @@ hide:
 - All guides are compiled in a single page as most will diverge to the original guide
     - To avoid confusion, I'll indicate if a guide is not needed (i.e. yomitan)
 
-- For gaming on CachyOS refer [here](https://wiki.cachyos.org/configuration/gaming/)
-
 - Work In Progress
     - Have [automated screenshot](setupLinux.md/#screenshot-mining) but no automated audio yet (check [GSM](https://github.com/bpwhelan/GameSentenceMiner) if you like, but its too bloated for my "lazy" taste)
 
@@ -924,6 +922,54 @@ hide:
       
     2. Done!
 
+---
+
+???note "Gaming <small>(click here)</small>"  
+    ## Gaming
+
+    NOTE: You can pretty much just focus on Steam and ignore Lutris/Heroic since you can install it on Steam alone.
+
+    **Installing gaming packages/launchers**
+
+    Non steam game setup/EXEs can be launched by adding it through steam as non-steam game > options > compatibility mode > Proton CachyOS (Latest)
+    ```
+    sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications cachyos/umu-launcher
+    ```
+    
+    Faugus is for VNs, ProtonPlus is for Proton used to be able to launch windows games/apps on Linux, Twintail is for gacha games
+    ```
+    paru -S --noconfirm faugus-launcher protonplus twintaillauncher-bin
+    ```
+
+    In ProtonPlus(after install) Install Proton-CachyOS (Latest)
+
+    Then on your steam:
+
+    1. Downloads > shader cache > off / download while game on
+    2. Interface > Language > Japanese / Start Up Location: Library
+    3. Compatibility > Proton-CachyOS Latest
+    4. While Gaming > Controller Big Picture
+
+    **Global Environment Setup**
+
+    1. In terminal paste this:
+    ```
+    mkdir -p ~/.config/environment.d
+    touch ~/.config/environment.d/gaming.conf
+    micro ~/.config/environment.d/gaming.conf
+    ```
+
+    2. Choose between AMD/Nvidia (GPU) then paste this then save (CTRL + S).
+    === "AMD"
+        ```
+        MESA_SHADER_CACHE_MAX_SIZE=12G
+        ```
+    === "Nvidia"
+        ```
+        __GL_SHADER_DISK_CACHE_SIZE=12000000000
+        ```
+
+    Reference: [CachyOS Gaming](https://wiki.cachyos.org/configuration/gaming/)
 ---
 
 Not so lazy guide isn't it? Linux setup is finally done, how about checking Sub Guide?

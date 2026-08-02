@@ -10,6 +10,10 @@ hide:
 
 ---
 
+### August
+
+- Added [Setup Linux: Gaming](setupLinux.md/#gaming) / [セットアップ: Linux：ゲーム](setupLinuxJP.md/#_8)
+
 ### July
 
 **2026-07-12**

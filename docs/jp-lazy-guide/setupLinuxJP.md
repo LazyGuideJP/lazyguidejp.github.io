@@ -6,9 +6,6 @@ hide:
 - すべてのガイドを1ページにまとめています。多くの手順が元のガイドと分岐するためです。
     - 混乱を避けるため、不要なガイド（例：Yomitan）がある場合はその都度記載します。
 
-- CachyOSでのゲーム環境については、[こちら](https://wiki.cachyos.org/configuration/gaming/)をご覧ください。
-    - 右上の言語メニューから日本語に変更できます。
-
 - 作業中
     - [自動スクリーンショット](setupLinux.md/#screenshot-mining)には対応していますが、自動音声録音にはまだ対応していません。（必要であれば[GSM](https://github.com/bpwhelan/GameSentenceMiner)も使えますが、私の「Lazy」スタイルには少し機能が多すぎます。）
 
@@ -938,6 +935,67 @@ hide:
 
     2. 完了です！
 
+---
+
+???note "ゲーム <small>(click here)</small>"  
+    ## ゲーム
+
+    ※基本的には **Steam** のみ設定すれば十分です。**Lutris** や **Heroic** は必須ではないため、必要になるまで無視して構いません。
+
+    **ゲーム関連パッケージのインストール**
+
+    Steam以外のゲームや `.exe` インストーラーは、Steamの**「Steam以外のゲームを追加」から登録し、プロパティ → 互換性 →「特定のSteam Play互換ツールの使用を強制する」→ Proton CachyOS（最新版）を選択することで起動できます。
+    ```
+    sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications cachyos/umu-launcher
+    ```
+    
+    以下は必要に応じてインストールしてください。
+
+    - **Faugus**：ノベルゲーム向け
+
+    - **ProtonPlus**：Protonのインストール・管理ツール
+
+    - **Twintail**：一部のソーシャルゲーム（ガチャゲーム）向け
+
+    ```
+    paru -S --noconfirm faugus-launcher protonplus twintaillauncher-bin
+    ```
+
+    インストール後、**ProtonPlus** を起動し、**Proton-CachyOS（Latest）** をインストールしてください。
+
+    Steamの推奨設定：
+
+    1. **インターフェース**
+    - 言語：**日本語**
+    - 起動時の表示：**ライブラリ**
+
+    2. **ダウンロード**
+    - シェーダーキャッシュ：**無効**
+    - ゲーム中のダウンロード：**有効**
+
+    3. **互換性**
+    - **Proton-CachyOS（Latest）** を使用
+
+    **グローバル環境設定**
+
+    1. ターミナルで以下を実行します。
+    ```
+    mkdir -p ~/.config/environment.d
+    touch ~/.config/environment.d/gaming.conf
+    micro ~/.config/environment.d/gaming.conf
+    ```
+
+    2. 使用しているGPUに応じて、以下のいずれかを `gaming.conf` に貼り付け、保存してください（**Ctrl + S**）。
+    === "AMD"
+        ```
+        MESA_SHADER_CACHE_MAX_SIZE=12G
+        ```
+    === "Nvidia"
+        ```
+        __GL_SHADER_DISK_CACHE_SIZE=12000000000
+        ```
+
+    参考資料： [CachyOS Gaming](https://wiki.cachyos.org/configuration/gaming/) (右上の言語メニューから日本語に変更できます。)
 ---
 
 思ったより「Lazy Guide」ではありませんでしたね？これでLinux環境のセットアップは完了です！
