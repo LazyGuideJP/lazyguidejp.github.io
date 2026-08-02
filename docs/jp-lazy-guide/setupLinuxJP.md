@@ -937,7 +937,7 @@ hide:
 
 ---
 
-???note "ゲーム <small>(click here)</small>"  
+???note "ゲーム <small>(クリックして開く)</small>"
     ## ゲーム
 
     **ゲーム関連パッケージのインストール**
