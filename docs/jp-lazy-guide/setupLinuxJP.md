@@ -6,6 +6,9 @@ hide:
 - すべてのガイドを1ページにまとめています。多くの手順が元のガイドと分岐するためです。
     - 混乱を避けるため、不要なガイド（例：Yomitan）がある場合はその都度記載します。
 
+- CachyOSでのゲーム環境については、[こちら](https://wiki.cachyos.org/configuration/gaming/)をご覧ください。
+    - 右上の言語メニューから日本語に変更できます。
+
 - 作業中
     - [自動スクリーンショット](setupLinux.md/#screenshot-mining)には対応していますが、自動音声録音にはまだ対応していません。（必要であれば[GSM](https://github.com/bpwhelan/GameSentenceMiner)も使えますが、私の「Lazy」スタイルには少し機能が多すぎます。）
 

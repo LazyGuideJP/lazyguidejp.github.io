@@ -6,6 +6,8 @@ hide:
 - All guides are compiled in a single page as most will diverge to the original guide
     - To avoid confusion, I'll indicate if a guide is not needed (i.e. yomitan)
 
+- For gaming on CachyOS refer [here](https://wiki.cachyos.org/configuration/gaming/)
+
 - Work In Progress
     - Have [automated screenshot](setupLinux.md/#screenshot-mining) but no automated audio yet (check [GSM](https://github.com/bpwhelan/GameSentenceMiner) if you like, but its too bloated for my "lazy" taste)
 
