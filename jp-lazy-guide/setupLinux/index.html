@@ -468,7 +468,7 @@
   <span class="md-ellipsis">
     
   
-    Changelog (2026-07-12)
+    Changelog (2026-08-02)
   
 
     
@@ -1560,6 +1560,17 @@
     <span class="md-ellipsis">
       
         Anime
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gaming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gaming
       
     </span>
   </a>
@@ -2968,6 +2979,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#gaming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gaming
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2995,9 +3017,6 @@
 <ul>
 <li>To avoid confusion, I'll indicate if a guide is not needed (i.e. yomitan)</li>
 </ul>
-</li>
-<li>
-<p>For gaming on CachyOS refer <a href="https://wiki.cachyos.org/configuration/gaming/">here</a></p>
 </li>
 <li>
 <p>Work In Progress</p>
@@ -4013,6 +4032,53 @@
 </ol>
 </details>
 <hr />
+<details class="note">
+<summary>Gaming <small>(click here)</small></summary>
+<h2 id="gaming">Gaming</h2>
+<p>NOTE: You can pretty much just focus on Steam and ignore Lutris/Heroic since you can install it on Steam alone.</p>
+<p><strong>Installing gaming packages/launchers</strong></p>
+<p>Non steam game setup/EXEs can be launched by adding it through steam as non-steam game &gt; options &gt; compatibility mode &gt; Proton CachyOS (Latest)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications cachyos/umu-launcher
+</code></pre></div></p>
+<p>Faugus is for VNs, ProtonPlus is for Proton used to be able to launch windows games/apps on Linux, Twintail is for gacha games
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>paru -S --noconfirm faugus-launcher protonplus twintaillauncher-bin
+</code></pre></div></p>
+<p>In ProtonPlus(after install) Install Proton-CachyOS (Latest)</p>
+<p>Then on your steam:</p>
+<ol>
+<li>Downloads &gt; shader cache &gt; off / download while game on</li>
+<li>Interface &gt; Language &gt; Japanese / Start Up Location: Library</li>
+<li>Compatibility &gt; Proton-CachyOS Latest</li>
+<li>While Gaming &gt; Controller Big Picture</li>
+</ol>
+<p><strong>Global Environment Setup</strong></p>
+<ol>
+<li>
+<p>In terminal paste this:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>mkdir -p ~/.config/environment.d
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>touch ~/.config/environment.d/gaming.conf
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>micro ~/.config/environment.d/gaming.conf
+</code></pre></div></p>
+</li>
+<li>
+<p>Choose between AMD/Nvidia (GPU) then paste this then save (CTRL + S).</p>
+</li>
+</ol>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">AMD</label><label for="__tabbed_1_2">Nvidia</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>MESA_SHADER_CACHE_MAX_SIZE=12G
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>__GL_SHADER_DISK_CACHE_SIZE=12000000000
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Reference: <a href="https://wiki.cachyos.org/configuration/gaming/">CachyOS Gaming</a></p>
+</details>
+<hr />
 <p>Not so lazy guide isn't it? Linux setup is finally done, how about checking Sub Guide?</p>
 <p><a class="md-button md-button" href="../subGuide/">Proceed to Sub Guide</a></p>
 
@@ -4035,7 +4101,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 2, 2026 01:58:59 UTC">August 2, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 2, 2026 02:25:52 UTC">August 2, 2026</span>
   </span>
 
     
