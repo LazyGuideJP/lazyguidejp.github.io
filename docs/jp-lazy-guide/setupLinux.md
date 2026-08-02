@@ -927,8 +927,6 @@ hide:
 ???note "Gaming <small>(click here)</small>"  
     ## Gaming
 
-    NOTE: You can pretty much just focus on Steam and ignore Lutris/Heroic since you can install it on Steam alone.
-
     **Installing gaming packages/launchers**
 
     Non steam game setup/EXEs can be launched by adding it through steam as non-steam game > options > compatibility mode > Proton CachyOS (Latest)
@@ -948,7 +946,6 @@ hide:
     1. Downloads > shader cache > off / download while game on
     2. Interface > Language > Japanese / Start Up Location: Library
     3. Compatibility > Proton-CachyOS Latest
-    4. While Gaming > Controller Big Picture
 
     **Global Environment Setup**
 
@@ -968,6 +965,9 @@ hide:
         ```
         __GL_SHADER_DISK_CACHE_SIZE=12000000000
         ```
+
+    - NOTE: You can pretty much just focus on Steam and ignore Lutris/Heroic since you can install it on Steam alone.
+        - Lutris has support for GOG/Epic/EA/Ubisoft in case you need them, under Runners > Wine > Settings > Wine version > Proton-CachyOS (Latest)
 
     Reference: [CachyOS Gaming](https://wiki.cachyos.org/configuration/gaming/)
 ---

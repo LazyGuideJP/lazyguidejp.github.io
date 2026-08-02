@@ -940,8 +940,6 @@ hide:
 ???note "ゲーム <small>(click here)</small>"  
     ## ゲーム
 
-    ※基本的には **Steam** のみ設定すれば十分です。**Lutris** や **Heroic** は必須ではないため、必要になるまで無視して構いません。
-
     **ゲーム関連パッケージのインストール**
 
     Steam以外のゲームや `.exe` インストーラーは、Steamの**「Steam以外のゲームを追加」から登録し、プロパティ → 互換性 →「特定のSteam Play互換ツールの使用を強制する」→ Proton CachyOS（最新版）を選択することで起動できます。
@@ -994,6 +992,9 @@ hide:
         ```
         __GL_SHADER_DISK_CACHE_SIZE=12000000000
         ```
+
+    - ※基本的には **Steam** のみ設定すれば十分です。**Lutris** や **Heroic** は必須ではないため、必要になるまで無視して構いません。
+        - Lutris は GOG・Epic Games・EA・Ubisoft に対応しています。必要な場合は、**Runner → Wine → 設定 → Wine version → Proton-CachyOS（Latest）** を選択してください。
 
     参考資料： [CachyOS Gaming](https://wiki.cachyos.org/configuration/gaming/) (右上の言語メニューから日本語に変更できます。)
 ---
